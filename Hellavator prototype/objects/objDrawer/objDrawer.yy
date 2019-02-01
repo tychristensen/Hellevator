@@ -2,7 +2,7 @@
     "id": "1f755c19-3f79-44ae-8d11-94eb8e27daae",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_drawer",
+    "name": "objDrawer",
     "eventList": [
         {
             "id": "c6ca2217-a9af-4ee0-b881-bf9ffc936020",

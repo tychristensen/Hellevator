@@ -6,7 +6,7 @@ does_move=irandom(idle_move_chance-1);
 if(does_move == 0 && attacking = false)
 {
 	move_direction = choose(-1,1);
-	hsp = max_hsp*move_direction;
+	horizontalSpeed = maxHorizontalSpeed*move_direction;
 	alarm_set(1,30) //this alarm dictates the stopping of the demon
 }
 alarm_set(0,30);

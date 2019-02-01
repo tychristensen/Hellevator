@@ -2,7 +2,7 @@
     "id": "c3f21997-68a4-4d5e-a111-a0d1f395cda3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_flyer",
+    "name": "objFlyer",
     "eventList": [
         {
             "id": "25f5a351-9323-41a1-9e96-9419c70ad4f3",

@@ -50,7 +50,7 @@
             "Key": "1e39b97d-89a8-43dc-9dd5-df66f114b4d1",
             "Value": {
                 "id": "645f7226-3232-4fd6-9867-875d8e940206",
-                "resourcePath": "objects\\obj_boulder\\obj_boulder.yy",
+                "resourcePath": "objects\\objBoulder\\objBoulder.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -58,7 +58,7 @@
             "Key": "1f755c19-3f79-44ae-8d11-94eb8e27daae",
             "Value": {
                 "id": "bc25f3de-4f60-4f3e-b0f3-641d3ea9357c",
-                "resourcePath": "objects\\obj_drawer\\obj_drawer.yy",
+                "resourcePath": "objects\\objDrawer\\objDrawer.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -98,7 +98,7 @@
             "Key": "4fc87d6d-bcfd-4033-b98d-b9369f2d2917",
             "Value": {
                 "id": "a981a55d-36cb-4b7e-a971-2852f884c123",
-                "resourcePath": "objects\\obj_demon\\obj_demon.yy",
+                "resourcePath": "objects\\objDemon\\objDemon.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -106,7 +106,7 @@
             "Key": "5b3565c2-c4b1-40fc-9ca2-77dc22c75555",
             "Value": {
                 "id": "f9cce1e3-265d-49fc-bd12-ff21c8405360",
-                "resourcePath": "objects\\obj_lava\\obj_lava.yy",
+                "resourcePath": "objects\\objLava\\objLava.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -162,15 +162,23 @@
             "Key": "a40b6555-7673-4487-9a3b-9905553d10d9",
             "Value": {
                 "id": "daddfa16-1597-481e-9eab-eb2fa188633d",
-                "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourcePath": "objects\\objPlayer\\objPlayer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "8d31676c-fb21-4502-8b48-a89843f30c75",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
             "Key": "ae9301a6-b99d-4b24-9bb1-66f36bccdab1",
             "Value": {
                 "id": "a3717ca8-0206-41a9-9f12-c23129fadb40",
-                "resourcePath": "objects\\obj_boulder_idle\\obj_boulder_idle.yy",
+                "resourcePath": "objects\\objBoulderIdle\\objBoulderIdle.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -210,7 +218,7 @@
             "Key": "c3f21997-68a4-4d5e-a111-a0d1f395cda3",
             "Value": {
                 "id": "b32f2ecf-73ca-4f91-81cb-acff238332e1",
-                "resourcePath": "objects\\obj_flyer\\obj_flyer.yy",
+                "resourcePath": "objects\\objFlyer\\objFlyer.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "4e986a1f-bcec-47d1-8e1d-002a1a8b4415",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
             "Key": "fb0fb631-a19f-4398-a92a-2abf315c212a",
             "Value": {
                 "id": "0b410a25-fce7-4311-a519-28aa4b9fca53",
@@ -290,7 +306,7 @@
             "Key": "fbff5d2b-549b-43bc-96f7-4e7957530ab0",
             "Value": {
                 "id": "0eff07ad-3b59-427d-adeb-ec5354863adc",
-                "resourcePath": "objects\\obj_floor\\obj_floor.yy",
+                "resourcePath": "objects\\objFloor\\objFloor.yy",
                 "resourceType": "GMObject"
             }
         }

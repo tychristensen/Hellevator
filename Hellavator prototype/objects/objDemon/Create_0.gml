@@ -4,8 +4,8 @@ idle_move_chance = 4; //has 1 in 4 chance of moving every time the alarm goes of
 alarm_set(0,30); //initial alarm set
 moving = false; //whether the enemy is moving
 move_direction = 1; //which direction the enemy moves
-max_hsp = 3;//the speed at which the demon moves
-hsp = 0;
-vsp = 0;
+maxHorizontalSpeed = 3;//the speed at which the demon moves
+horizontalSpeed = 0;
+verticleSpeed = 0;
 grav = .5;
 attacking = false;

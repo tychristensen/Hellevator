@@ -1,8 +1,8 @@
 {
-    "id": "5b3565c2-c4b1-40fc-9ca2-77dc22c75555",
+    "id": "fbff5d2b-549b-43bc-96f7-4e7957530ab0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_lava",
+    "name": "objFloor",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "447e18b6-8312-4752-a72c-c336299b2978",
+    "spriteId": "eac20f01-21a6-483a-9403-e56e590edd3d",
     "visible": true
 }
