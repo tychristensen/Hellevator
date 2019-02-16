@@ -1,4 +1,4 @@
-/// @description Insert description here
+ /// @description Insert description here
 // You can write your code in this editor
 //Get the player's input
 keyRight = keyboard_check(vk_right);
