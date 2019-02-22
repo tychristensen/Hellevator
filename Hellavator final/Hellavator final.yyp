@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "28d48c90-0bb3-4dba-957e-0f303e18789e",
+            "Value": {
+                "id": "f3b24f3b-c726-47b7-8a73-d3fdabb2ad10",
+                "resourcePath": "sprites\\sprMcStand\\sprMcStand.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2984afd4-c4bb-412d-b543-53c02e554c35",
             "Value": {
                 "id": "c5c36e59-a0ae-4c85-a4b0-26560dc71e26",
@@ -147,6 +155,14 @@
             "Value": {
                 "id": "43b2a5d3-5929-41c0-a64e-f60ded4aae79",
                 "resourcePath": "sprites\\sSpikcicle\\sSpikcicle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4e922505-1204-441a-828b-91385407aebd",
+            "Value": {
+                "id": "b20204da-1823-4de7-9ed4-63abdc899b6f",
+                "resourcePath": "sprites\\sTrappedPersonWIP\\sTrappedPersonWIP.yy",
                 "resourceType": "GMSprite"
             }
         },

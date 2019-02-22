@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 63,
-    "bbox_left": 9,
-    "bbox_right": 52,
-    "bbox_top": 20,
+    "bbox_bottom": 60,
+    "bbox_left": 3,
+    "bbox_right": 51,
+    "bbox_top": 6,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -29,11 +29,18 @@
             },
             "images": [
                 {
-                    "id": "4e63233b-5df7-45ce-bf5c-c1aacd1d8fc5",
+                    "id": "8b5b464e-7f9d-48e4-a82d-4348a79655e2",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "ee9f5348-69b7-45e9-b540-28a76f26f022",
-                    "LayerId": "e7c004f5-f51f-4dd6-b581-ae6d322f77a2"
+                    "LayerId": "74cc077f-35d3-477c-9b83-33cd7e3b0750"
+                },
+                {
+                    "id": "5de5c132-2274-4044-adb5-22bb03f78f16",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "ee9f5348-69b7-45e9-b540-28a76f26f022",
+                    "LayerId": "401ecda7-dec4-4425-90cf-4491dddfed35"
                 }
             ]
         }
@@ -43,15 +50,26 @@
     "height": 64,
     "layers": [
         {
-            "id": "e7c004f5-f51f-4dd6-b581-ae6d322f77a2",
+            "id": "401ecda7-dec4-4425-90cf-4491dddfed35",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "9a258b0d-2ee2-4feb-9ada-63fb705a070e",
             "blendMode": 0,
             "isLocked": false,
-            "name": "default",
+            "name": "Layer 1",
             "opacity": 100,
             "visible": true
+        },
+        {
+            "id": "74cc077f-35d3-477c-9b83-33cd7e3b0750",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "9a258b0d-2ee2-4feb-9ada-63fb705a070e",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 2",
+            "opacity": 100,
+            "visible": false
         }
     ],
     "origin": 9,

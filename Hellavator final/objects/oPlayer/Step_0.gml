@@ -10,23 +10,23 @@ keyEscape = keyboard_check_pressed(vk_escape);
 verticalSpeed += grav;
 
 //jump if jump key pressed
-if(keyJump && canJump == true)
+if(keyJump && canJump)
 {
 	verticalSpeed = -jumpSpeed;
 	canJump = false;
 }
 
 //limits horizontal speed
-if(horizontalSpeed<maxHorizontalSpeed)
+if(horizontalSpeed < maxHorizontalSpeed)
 {
 	horizontalSpeed += keyRight*horizontalAcceleration;
 }
-if(horizontalSpeed>-maxHorizontalSpeed)
+if(horizontalSpeed > -maxHorizontalSpeed)
 {
 	horizontalSpeed += keyLeft*horizontalAcceleration;
 }
 
-//slowly decellerates player horizontally
+//slowly decelerates player horizontally
 if(horizontalSpeed>0 && !keyLeft && !keyRight)
 {
 	horizontalSpeed-=slow;
@@ -36,7 +36,7 @@ if(horizontalSpeed<0 && !keyLeft && !keyRight)
 	horizontalSpeed+=slow;
 }
 
-//Horizontal Collision
+//horizontal collision
 if (place_meeting(x+horizontalSpeed,y,oFloor))
 {
     while(!place_meeting(x+sign(horizontalSpeed),y,oFloor))
@@ -62,7 +62,7 @@ if (place_meeting(x,y+verticalSpeed,oFloor))
 	//if the vertical speed it large enough then landing will cause a minor screen shake
 	if(verticalSpeed > impactConstant)
 	{
-		global.shake = 2;
+		global.shake = 1;
 		oCamera.alarm[0] = 8;
 	}
     verticalSpeed = 0;	
