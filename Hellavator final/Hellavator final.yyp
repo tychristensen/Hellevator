@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "438b8476-727d-4f9d-8de5-08c842374cfc",
+            "Value": {
+                "id": "43b2a5d3-5929-41c0-a64e-f60ded4aae79",
+                "resourcePath": "sprites\\sSpikcicle\\sSpikcicle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4fc87d6d-bcfd-4033-b98d-b9369f2d2917",
             "Value": {
                 "id": "4700cb4e-51fa-4014-aa4c-3fc8c53e6d89",
