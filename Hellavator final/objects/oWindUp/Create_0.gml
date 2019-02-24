@@ -1,3 +1,4 @@
 /// @description Initialize up wind
-
-WIND_CONSTANT = 1;
+event_inherited()
+WIND_CONSTANT = 1
+windDirection = 90
