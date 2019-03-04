@@ -87,14 +87,6 @@
             }
         },
         {
-            "Key": "15876fb0-c640-4ed3-85d9-55e7d22862dc",
-            "Value": {
-                "id": "59aa0e40-d14f-493e-830d-2f80bc5d3528",
-                "resourcePath": "sprites\\sHellevator\\sHellevator.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1b49328a-b6b1-4346-8ada-c785e047e9cb",
             "Value": {
                 "id": "fa8d6b68-664d-4571-a082-25d0cee69547",
@@ -130,7 +122,7 @@
             "Key": "28d48c90-0bb3-4dba-957e-0f303e18789e",
             "Value": {
                 "id": "f3b24f3b-c726-47b7-8a73-d3fdabb2ad10",
-                "resourcePath": "sprites\\sprMcStand\\sprMcStand.yy",
+                "resourcePath": "sprites\\sMcStand\\sMcStand.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -203,6 +195,14 @@
             "Value": {
                 "id": "b20204da-1823-4de7-9ed4-63abdc899b6f",
                 "resourcePath": "sprites\\sTrappedPersonWIP\\sTrappedPersonWIP.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4eb10465-0c87-46f6-90da-aca0c4b3ee78",
+            "Value": {
+                "id": "90af86b5-f049-402e-b633-496ebe5a8533",
+                "resourcePath": "sprites\\sMcTalk\\sMcTalk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -324,6 +324,22 @@
                 "id": "6dcfc5ae-32b3-4f8e-8dfb-2bcd6296e85a",
                 "resourcePath": "objects\\oWindUp\\oWindUp.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9efa8bce-3804-48e4-9320-eb74fec1ff63",
+            "Value": {
+                "id": "b55cf96c-701f-4162-9ce5-d5ba65ca0859",
+                "resourcePath": "sprites\\sHellevator\\sHellevator.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a85daf54-b748-497f-95f4-2fd603d3114f",
+            "Value": {
+                "id": "ff35ec71-bbcc-417d-bb1d-c9cebf9e993a",
+                "resourcePath": "sprites\\sHellavatorTalk\\sHellavatorTalk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

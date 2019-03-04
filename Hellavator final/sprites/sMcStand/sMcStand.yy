@@ -2,7 +2,7 @@
     "id": "28d48c90-0bb3-4dba-957e-0f303e18789e",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprMcStand",
+    "name": "sMcStand",
     "For3D": false,
     "HTile": false,
     "VTile": false,
