@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "a49849ee-18d6-49a4-bf68-a3f86a7d6891",
+            "Value": {
+                "id": "d80676d1-4895-4494-9251-c50ff3994156",
+                "resourcePath": "sprites\\sMcShorthairWIPl\\sMcShorthairWIPl.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a85daf54-b748-497f-95f4-2fd603d3114f",
             "Value": {
                 "id": "ff35ec71-bbcc-417d-bb1d-c9cebf9e993a",
