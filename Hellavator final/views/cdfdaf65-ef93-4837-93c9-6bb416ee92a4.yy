@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {
     "id": "cdfdaf65-ef93-4837-93c9-6bb416ee92a4",
     "modelName": "GMFolder",
@@ -12,6 +13,8 @@
     "isDefaultView": false,
     "localisedFolderName": "ResourceTree_Scripts"
 =======
+=======
+>>>>>>> master
 {
     "id": "cdfdaf65-ef93-4837-93c9-6bb416ee92a4",
     "modelName": "GMFolder",
@@ -24,5 +27,8 @@
     "folderName": "scripts",
     "isDefaultView": false,
     "localisedFolderName": "ResourceTree_Scripts"
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 }
