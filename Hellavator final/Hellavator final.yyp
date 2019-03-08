@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "bb3e952e-8ddd-4401-a661-7f8a3c02c0af",
+            "Value": {
+                "id": "ab0d38e3-6c7b-448d-bd45-329b92787f36",
+                "resourcePath": "sprites\\miniBack2\\miniBack2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bb9967a0-2f36-41a5-b9df-01637c0575f4",
             "Value": {
                 "id": "06d6adbe-d0b1-492b-9c88-a8f5318bec78",
@@ -428,6 +436,14 @@
                 "id": "ac8cd5c9-fa5c-4473-98da-b7e2d227c619",
                 "resourcePath": "objects\/oPlayer\/oPlayer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bc2bef32-74fe-4f8c-96be-e5836b245d8a",
+            "Value": {
+                "id": "ab038b3b-9efa-4ddc-b5ed-26cd7cff3afc",
+                "resourcePath": "sprites\\miniBack1\\miniBack1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
