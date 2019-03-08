@@ -2,7 +2,7 @@
     "id": "106c6074-5163-4f03-b97a-52f87b13b006",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Meteor",
+    "name": "sMeteor",
     "For3D": false,
     "HTile": false,
     "VTile": false,

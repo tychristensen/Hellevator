@@ -1,10 +1,19 @@
 {
-    "id": "c5485865-e474-41ea-bd52-3793547afc54",
+    "id": "c889e8c0-58eb-4d61-adeb-a1a7b22793c0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oFloor",
+    "name": "oIceFire",
     "eventList": [
-        
+        {
+            "id": "8331d8a7-d0d6-47d3-8af5-ed6cf4c7770f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "bbedefe4-0206-4f39-bd2f-2d59acaecdd4",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "c889e8c0-58eb-4d61-adeb-a1a7b22793c0"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -23,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "1b49328a-b6b1-4346-8ada-c785e047e9cb",
+    "solid": false,
+    "spriteId": "29c9dcd0-85e2-45d3-b172-f8c782dfa792",
     "visible": true
 }

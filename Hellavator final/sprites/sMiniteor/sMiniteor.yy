@@ -2,7 +2,7 @@
     "id": "ee15c6f5-ed68-4c40-9752-e7936b3a8c06",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Miniteor",
+    "name": "sMiniteor",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -68,6 +68,38 @@ if (place_meeting(x,y+verticalSpeed,oFloor))
     verticalSpeed = 0;	
 }
 
+//horizontal collision
+if (place_meeting(x+horizontalSpeed,y,oFloor2))
+{
+    while(!place_meeting(x+sign(horizontalSpeed),y,oFloor2))
+    {
+        x += sign(horizontalSpeed);
+    }
+	horizontalSpeed = 0;
+}
+
+//vertical collision
+if (place_meeting(x,y+verticalSpeed,oFloor2))
+{
+    while(!place_meeting(x,y+sign(verticalSpeed),oFloor2))
+    {
+        y += sign(verticalSpeed);
+    }
+	
+	// only resets jump if touched a platform below, not above
+	if(verticalSpeed>0)
+	{
+		canJump = true;
+	}
+	//if the vertical speed it large enough then landing will cause a minor screen shake
+	if(verticalSpeed > impactConstant)
+	{
+		global.shake = 1;
+		oCamera.alarm[0] = 8;
+	}
+    verticalSpeed = 0;	
+}
+
 //updates x and y based on speed
 y += verticalSpeed;
 x += horizontalSpeed;

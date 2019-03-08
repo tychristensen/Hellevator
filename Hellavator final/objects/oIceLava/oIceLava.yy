@@ -1,10 +1,19 @@
 {
-    "id": "c5485865-e474-41ea-bd52-3793547afc54",
+    "id": "8dfd1f38-9081-4ec6-ac43-a1f07e23538f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oFloor",
+    "name": "oIceLava",
     "eventList": [
-        
+        {
+            "id": "41030cd5-959a-4bfa-ae36-0cb84072e907",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "bbedefe4-0206-4f39-bd2f-2d59acaecdd4",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "8dfd1f38-9081-4ec6-ac43-a1f07e23538f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -23,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "1b49328a-b6b1-4346-8ada-c785e047e9cb",
+    "solid": false,
+    "spriteId": "202b5434-69c0-4b08-a7fc-efff7e3c753f",
     "visible": true
 }
