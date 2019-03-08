@@ -65,18 +65,5 @@ if (place_meeting(x,y+verticleSpeed,objFloor))
 
 }
 
-//corner bug test
-if (place_meeting(x+horizontalSpeed,y+verticleSpeed,objFloor))
-{
-    while(!place_meeting(x+sign(horizontalSpeed),y+sign(verticleSpeed),objFloor))
-    {
-        x += sign(horizontalSpeed);
-		y += sign(verticleSpeed);
-    }
-	horizontalSpeed = 0;
-	verticleSpeed = 0;
-}
-
-
 y += verticleSpeed;
-x += horizontalSpeed;
+x += horizontalSpeed

@@ -60,30 +60,12 @@ if (place_meeting(x,y+verticalSpeed,oFloor))
 		canJump = true;
 	}
 	//if the vertical speed it large enough then landing will cause a minor screen shake
-	//we would need to talk about how to abstract this part but this has a lil bounce when the player hits the ground
 	if(verticalSpeed > impactConstant)
 	{
 		global.shake = 1;
 		oCamera.alarm[0] = 8;
-		verticalSpeed = -verticalSpeed/bounceRatio;
 	}
-	else
-	{
-		verticalSpeed = 0;
-	}
-
-}
-
-//test corner bug fix
-if (place_meeting(x+horizontalSpeed,y+verticalSpeed,oFloor))
-{
-    while(!place_meeting(x+sign(horizontalSpeed),y+sign(horizontalSpeed),oFloor))
-    {
-        x += sign(horizontalSpeed);
-		y += sign(verticalSpeed);
-    }
-	horizontalSpeed = 0;
-	verticalSpeed = 0;
+    verticalSpeed = 0;	
 }
 
 //updates x and y based on speed

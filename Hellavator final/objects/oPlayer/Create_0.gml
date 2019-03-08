@@ -10,4 +10,3 @@ horizontalAcceleration = 1;
 slow = .5;//horizontal "friction" constant
 jumpSpeed = 15;
 impactConstant = 12; //speed at which screen will shake if you hit the ground
-bounceRatio = 5; //the amount the vertical speed is divided by when the player bounces
