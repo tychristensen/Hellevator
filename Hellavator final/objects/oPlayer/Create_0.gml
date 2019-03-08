@@ -10,3 +10,10 @@ horizontalAcceleration = 1;
 slow = .5;//horizontal "friction" constant
 jumpSpeed = 15;
 impactConstant = 12; //speed at which screen will shake if you hit the ground
+state = moveState.normal;
+
+enum moveState 
+{
+	normal,
+	grappling
+}
