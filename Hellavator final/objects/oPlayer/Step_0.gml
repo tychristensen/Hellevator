@@ -25,8 +25,8 @@ switch(state)
 		//fires grapple projectile
 		if(fireGrapple)
 		{
-			//instance_create_layer(x,y,"Instances",oGrappleProjectile)
-			instance_create_layer(mouse_x,mouse_y,"Instances",oGrappleHead)
+			instance_create_layer(x,y,"Instances",oGrappleProjectile)
+			//instance_create_layer(mouse_x,mouse_y,"Instances",oGrappleHead) this puts grapple head at mouse
 		}
 
 		//limits horizontal speed
@@ -64,12 +64,15 @@ switch(state)
 	case(moveState.grappling):
 	{
 		grappleAngAccel = -0.2 * dcos(ropeAngle);
+		
+		grappleAngAccel += keyRight * swingAccel;
+		grappleAngAccel += keyLeft * swingAccel;
 		ropeAngleVelocity += grappleAngAccel;
 		ropeAngle += ropeAngleVelocity;
 		ropeAngleVelocity *= .99;
 		
-		baseX = lengthdir_x(ropeLength,ropeAngle);
-		baseY = lengthdir_y(ropeLength,ropeAngle);
+		baseX = grappleX + lengthdir_x(ropeLength,ropeAngle);
+		baseY = grappleY + lengthdir_y(ropeLength,ropeAngle);
 		
 		horizontalSpeed = baseX - x;
 		verticalSpeed = baseY - y;
@@ -92,6 +95,11 @@ if (place_meeting(x+horizontalSpeed,y,oFloor))
         x += sign(horizontalSpeed);
     }
 	horizontalSpeed = 0;
+	if(state = moveState.grappling)
+	{
+		ropeAngle = point_direction(grappleX,grappleY,x,y);
+		ropeAngleVelocity = 0;
+	}
 }
 
 //vertical collision
@@ -114,6 +122,11 @@ if (place_meeting(x,y+verticalSpeed,oFloor))
 		oCamera.alarm[0] = 8;
 	}
     verticalSpeed = 0;	
+		if(state = moveState.grappling)
+	{
+		ropeAngle = point_direction(grappleX,grappleY,x,y);
+		ropeAngleVelocity = 0;
+	}
 }
 
 //horizontal collision
