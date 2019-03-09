@@ -54,7 +54,14 @@ switch(state)
 			grappleY = oGrappleHead.y;
 			baseX = x;
 			baseY = y;
-			ropeAngleVelocity = 0;
+			
+			velocityMagnitude = sqrt(horizontalSpeed*horizontalSpeed + verticalSpeed*verticalSpeed);
+			theta = point_direction(grappleX,grappleY,x,y)
+			phi = degtorad(arctan(horizontalSpeed/verticalSpeed))
+			delta = theta-phi;
+			ropeAngleVelocity = velocityMagnitude*cos(delta)*.05;
+			
+			//ropeAngleVelocity = 0;
 			ropeAngle = point_direction(grappleX,grappleY,x,y);
 			ropeLength = point_distance(grappleX,grappleY,x,y);
 			state = moveState.grappling
