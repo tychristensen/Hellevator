@@ -95,7 +95,15 @@ switch(state)
 }
 
 //horizontal collision
-if (place_meeting(x+horizontalSpeed,y,oFloor))
+if (place_meeting(x+horizontalSpeed,y,oClimbWall))
+{
+    while(!place_meeting(x+sign(horizontalSpeed),y,oClimbWall))
+    {
+        x += sign(horizontalSpeed);
+    }
+	verticalSpeed -= abs(horizontalSpeed);
+	horizontalSpeed = 0;
+} else if (place_meeting(x+horizontalSpeed,y,oFloor))
 {
     while(!place_meeting(x+sign(horizontalSpeed),y,oFloor))
     {
