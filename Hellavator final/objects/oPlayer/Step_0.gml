@@ -1,8 +1,8 @@
  /// @description Insert description here
 // You can write your code in this editor
 //Get the player's input
-keyRight = keyboard_check(vk_right);
-keyLeft = -keyboard_check(vk_left);
+keyRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
+keyLeft = -(keyboard_check(vk_left) or keyboard_check(ord("A")));
 keyJump = keyboard_check_pressed(vk_space);
 keyEscape = keyboard_check_pressed(vk_escape);
 fireGrapple = mouse_check_button_pressed(mb_left);
