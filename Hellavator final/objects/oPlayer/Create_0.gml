@@ -4,6 +4,7 @@
 verticalSpeed = 0; //makes sure player isnt moving down 
 horizontalSpeed = 0; //keeps player still
 canJump = true; //tells whether player has jumped
+wallJump = false;
 grav = .5; //gravity constant
 maxHorizontalSpeed = 8;//horizontal speed limiter
 horizontalAcceleration = 1;

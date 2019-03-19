@@ -21,6 +21,11 @@ switch(state)
 			verticalSpeed = -jumpSpeed;
 			canJump = false;
 		}
+		
+		if(keyboard_check_released(vk_space) and !canJump)
+		{
+			wallJump = true;
+		}
 
 		//fires grapple projectile
 		if(fireGrapple)
@@ -102,7 +107,49 @@ if (place_meeting(x+horizontalSpeed,y,oFloor))
         x += sign(horizontalSpeed);
     }
 	horizontalSpeed = 0;
-	if(state = moveState.grappling)
+	if(state == moveState.grappling)
+	{
+		ropeAngle = point_direction(grappleX,grappleY,x,y);
+		ropeAngleVelocity = 0;
+	}
+}
+else if (place_meeting(x+horizontalSpeed,y,oClimbWall))
+{
+	while(!place_meeting(x+sign(horizontalSpeed),y,oClimbWall))
+    {
+        x += sign(horizontalSpeed);
+    }
+	if(state == moveState.grappling)
+	{
+		horizontalSpeed = 0;
+		ropeAngle = point_direction(grappleX,grappleY,x,y);
+		ropeAngleVelocity = 0;
+	}
+	else if(keyboard_check(vk_space) and wallJump)
+	{
+		WALLJUMPCONST = 16;
+		wallJump = false;
+		verticalSpeed -= jumpSpeed * 0.5;
+		if(keyRight != 0) {
+			horizontalSpeed = -horizontalAcceleration * WALLJUMPCONST;
+		} else if(keyLeft != 0) {
+			horizontalSpeed = horizontalAcceleration * WALLJUMPCONST;
+		}
+	}
+	else
+	{
+		verticalSpeed -= abs(horizontalSpeed) * 0.1;
+		horizontalSpeed = 0;
+	}
+}
+else if (place_meeting(x+horizontalSpeed,y,oFloor2))
+{
+    while(!place_meeting(x+sign(horizontalSpeed),y,oFloor2))
+    {
+        x += sign(horizontalSpeed);
+    }
+	horizontalSpeed = 0;
+	if(state == moveState.grappling)
 	{
 		ropeAngle = point_direction(grappleX,grappleY,x,y);
 		ropeAngleVelocity = 0;
@@ -112,6 +159,7 @@ if (place_meeting(x+horizontalSpeed,y,oFloor))
 //vertical collision
 if (place_meeting(x,y+verticalSpeed,oFloor))
 {
+	wallJump = false;
     while(!place_meeting(x,y+sign(verticalSpeed),oFloor))
     {
         y += sign(verticalSpeed);
@@ -135,20 +183,35 @@ if (place_meeting(x,y+verticalSpeed,oFloor))
 		ropeAngleVelocity = 0;
 	}
 }
-
-//horizontal collision
-if (place_meeting(x+horizontalSpeed,y,oFloor2))
+else if (place_meeting(x,y+verticalSpeed,oClimbWall))
 {
-    while(!place_meeting(x+sign(horizontalSpeed),y,oFloor2))
+	wallJump = false;
+    while(!place_meeting(x,y+sign(verticalSpeed),oClimbWall))
     {
-        x += sign(horizontalSpeed);
+        y += sign(verticalSpeed);
     }
-	horizontalSpeed = 0;
+	
+	// only resets jump if touched a platform below, not above
+	if(verticalSpeed>0)
+	{
+		canJump = true;
+	}
+	//if the vertical speed it large enough then landing will cause a minor screen shake
+	if(verticalSpeed > impactConstant)
+	{
+		global.shake = 1;
+		oCamera.alarm[0] = 8;
+	}
+    verticalSpeed = 0;	
+		if(state = moveState.grappling)
+	{
+		ropeAngle = point_direction(grappleX,grappleY,x,y);
+		ropeAngleVelocity = 0;
+	}
 }
-
-//vertical collision
-if (place_meeting(x,y+verticalSpeed,oFloor2))
+else if (place_meeting(x,y+verticalSpeed,oFloor2))
 {
+	wallJump = false;
     while(!place_meeting(x,y+sign(verticalSpeed),oFloor2))
     {
         y += sign(verticalSpeed);
@@ -166,6 +229,11 @@ if (place_meeting(x,y+verticalSpeed,oFloor2))
 		oCamera.alarm[0] = 8;
 	}
     verticalSpeed = 0;	
+		if(state = moveState.grappling)
+	{
+		ropeAngle = point_direction(grappleX,grappleY,x,y);
+		ropeAngleVelocity = 0;
+	}
 }
 
 //updates x and y based on speed
