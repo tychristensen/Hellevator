@@ -141,6 +141,8 @@ else if (place_meeting(x+horizontalSpeed,y,oWall))
 		verticalSpeed -= abs(horizontalSpeed) * 0.1;
 		horizontalSpeed = 0;
 	}
+} else if (!(place_meeting(x+horizontalSpeed,y,oWall))) {
+	wallJump = false;
 }
 
 //vertical collision
