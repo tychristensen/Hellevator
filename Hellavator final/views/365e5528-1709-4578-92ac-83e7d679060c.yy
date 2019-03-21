@@ -1,4 +1,3 @@
-
 {
     "id": "365e5528-1709-4578-92ac-83e7d679060c",
     "modelName": "GMFolder",

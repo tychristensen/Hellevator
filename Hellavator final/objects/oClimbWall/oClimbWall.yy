@@ -1,5 +1,5 @@
 {
-    "id": "8b0c177d-8ca5-49b8-811d-3197de3c485a",
+    "id": "ea7482be-1489-45f6-99bb-6624e98360fa",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oClimbWall",
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": true,
-    "spriteId": "1578a01e-cd90-4431-8495-5a8f38594655",
+    "spriteId": "24dc0bfb-cb91-4d17-a362-92ed1306cc42",
     "visible": true
 }
