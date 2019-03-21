@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "4d25bb7d-4b72-41de-8bc4-5f7b3e262d26",
+            "Value": {
+                "id": "afef8b05-f606-4070-a421-c8ffb7381729",
+                "resourcePath": "sprites\\sTESTAPRITE\\sTESTAPRITE.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e922505-1204-441a-828b-91385407aebd",
             "Value": {
                 "id": "b20204da-1823-4de7-9ed4-63abdc899b6f",
