@@ -1,6 +1,6 @@
 
 {
-    "name": "layer1",
+    "name": "Level1",
     "id": "530aac4d-5af3-4548-9b07-919ac11b2da3",
     "creationCodeFile": "",
     "inheritCode": false,

@@ -113,9 +113,9 @@ if (place_meeting(x+horizontalSpeed,y,oFloor))
 		ropeAngleVelocity = 0;
 	}
 }
-else if (place_meeting(x+horizontalSpeed,y,oClimbWall))
+else if (place_meeting(x+horizontalSpeed,y,oWall))
 {
-	while(!place_meeting(x+sign(horizontalSpeed),y,oClimbWall))
+	while(!place_meeting(x+sign(horizontalSpeed),y,oWall))
     {
         x += sign(horizontalSpeed);
     }
@@ -140,19 +140,6 @@ else if (place_meeting(x+horizontalSpeed,y,oClimbWall))
 	{
 		verticalSpeed -= abs(horizontalSpeed) * 0.1;
 		horizontalSpeed = 0;
-	}
-}
-else if (place_meeting(x+horizontalSpeed,y,oFloor2))
-{
-    while(!place_meeting(x+sign(horizontalSpeed),y,oFloor2))
-    {
-        x += sign(horizontalSpeed);
-    }
-	horizontalSpeed = 0;
-	if(state == moveState.grappling)
-	{
-		ropeAngle = point_direction(grappleX,grappleY,x,y);
-		ropeAngleVelocity = 0;
 	}
 }
 
@@ -183,36 +170,10 @@ if (place_meeting(x,y+verticalSpeed,oFloor))
 		ropeAngleVelocity = 0;
 	}
 }
-else if (place_meeting(x,y+verticalSpeed,oClimbWall))
+else if (place_meeting(x,y+verticalSpeed,oWall))
 {
 	wallJump = false;
-    while(!place_meeting(x,y+sign(verticalSpeed),oClimbWall))
-    {
-        y += sign(verticalSpeed);
-    }
-	
-	// only resets jump if touched a platform below, not above
-	if(verticalSpeed>0)
-	{
-		canJump = true;
-	}
-	//if the vertical speed it large enough then landing will cause a minor screen shake
-	if(verticalSpeed > impactConstant)
-	{
-		global.shake = 1;
-		oCamera.alarm[0] = 8;
-	}
-    verticalSpeed = 0;	
-		if(state = moveState.grappling)
-	{
-		ropeAngle = point_direction(grappleX,grappleY,x,y);
-		ropeAngleVelocity = 0;
-	}
-}
-else if (place_meeting(x,y+verticalSpeed,oFloor2))
-{
-	wallJump = false;
-    while(!place_meeting(x,y+sign(verticalSpeed),oFloor2))
+    while(!place_meeting(x,y+sign(verticalSpeed),oWall))
     {
         y += sign(verticalSpeed);
     }

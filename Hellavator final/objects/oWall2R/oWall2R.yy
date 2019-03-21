@@ -1,8 +1,8 @@
 {
-    "id": "8211d6c1-ca9e-486c-95e8-a0ead734362e",
+    "id": "0bfb394f-77ef-4494-aeb2-4da99c7a3baf",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oWall2",
+    "name": "oWall2R",
     "eventList": [
         
     ],
@@ -22,28 +22,28 @@
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "484853a9-7bfa-4874-8f17-ccfcc69b3b54",
+            "id": "e633d216-427e-4478-8e9e-3f6f7940f4ff",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
             "y": 0
         },
         {
-            "id": "351c95c9-9413-4644-945c-06803f0f9a8d",
+            "id": "a1a1f3cf-3167-402a-95d6-edbeb8a96d29",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 64,
             "y": 0
         },
         {
-            "id": "87e88a0b-3b17-473b-8b10-47373752e8ba",
+            "id": "ae876a27-d017-4635-96d8-633d1262d3d5",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 64,
             "y": 64
         },
         {
-            "id": "2fd508da-e2d1-4b84-a0f7-f28f85ded246",
+            "id": "cf872bc5-cf69-4956-b655-39e09b33e448",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": true,
-    "spriteId": "2a01dc95-b6a8-426e-a95b-f0c6ebdaf5a5",
+    "spriteId": "2d19e3cc-4d44-444f-a761-061555b0512a",
     "visible": true
 }

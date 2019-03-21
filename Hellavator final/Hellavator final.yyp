@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0bfb394f-77ef-4494-aeb2-4da99c7a3baf",
+            "Value": {
+                "id": "97c98255-a375-44c5-a53f-3fec26a277da",
+                "resourcePath": "objects\\oWall2R\\oWall2R.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0f33c54f-837c-4262-8bec-0f7358b1ed44",
             "Value": {
                 "id": "dbebec2a-e7ce-4a62-a402-e990631b6d6f",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "2d19e3cc-4d44-444f-a761-061555b0512a",
+            "Value": {
+                "id": "f78f4f59-8e89-40b6-a81b-807e55f022e2",
+                "resourcePath": "sprites\\sWall2R\\sWall2R.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2da2b858-4175-4fd9-97ec-f6f0372a4a90",
             "Value": {
                 "id": "ad4a305d-bf53-42a1-915c-9e8744cdec47",
@@ -274,7 +290,7 @@
             "Key": "530aac4d-5af3-4548-9b07-919ac11b2da3",
             "Value": {
                 "id": "112aa5ec-3674-4b92-9f43-ba05df20cdd3",
-                "resourcePath": "rooms\/layer1\/layer1.yy",
+                "resourcePath": "rooms\\Level1\\Level1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -292,6 +308,14 @@
                 "id": "d14a881f-0d02-44e5-9341-a73c9b7551d3",
                 "resourcePath": "objects\/oSmallMeteor\/oSmallMeteor.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "574e69fc-81a2-4fff-8ef2-93e2cfc4475e",
+            "Value": {
+                "id": "ab3b02a6-6269-4ec8-870c-c3ce805e8354",
+                "resourcePath": "rooms\\Level4\\Level4.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -690,7 +714,7 @@
             "Key": "ea7482be-1489-45f6-99bb-6624e98360fa",
             "Value": {
                 "id": "0eff053a-3d37-4427-9307-9dafdc7f5cb0",
-                "resourcePath": "objects\\oClimbWall\\oClimbWall.yy",
+                "resourcePath": "objects\\oWall\\oWall.yy",
                 "resourceType": "GMObject"
             }
         },
