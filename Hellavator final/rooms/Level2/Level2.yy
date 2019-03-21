@@ -1,6 +1,6 @@
 
 {
-    "name": "roomDemo",
+    "name": "Level2",
     "id": "817c3ee4-13f8-49cf-abc8-125096b39cbc",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -270,7 +270,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "bb3e952e-8ddd-4401-a661-7f8a3c02c0af",
+            "spriteId": "00000000-0000-0000-0000-000000000000",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
