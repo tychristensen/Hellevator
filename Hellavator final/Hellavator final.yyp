@@ -234,7 +234,7 @@
             "Key": "4eb10465-0c87-46f6-90da-aca0c4b3ee78",
             "Value": {
                 "id": "90af86b5-f049-402e-b633-496ebe5a8533",
-                "resourcePath": "sprites\/sMcTalk\/sMcTalk.yy",
+                "resourcePath": "sprites\\sMcReg\\sMcReg.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -284,6 +284,14 @@
                 "id": "0f751423-a620-4173-994e-f85a3cc8a61d",
                 "resourcePath": "views\/5db1f7d7-6efb-4001-adb8-9849ed280016.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "66ea8ca9-e840-4998-963e-a13d87546713",
+            "Value": {
+                "id": "b16ce5ea-a919-401a-94cb-248ecfff1dc3",
+                "resourcePath": "sprites\\sMcScared\\sMcScared.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -458,7 +466,7 @@
             "Key": "a49849ee-18d6-49a4-bf68-a3f86a7d6891",
             "Value": {
                 "id": "d80676d1-4895-4494-9251-c50ff3994156",
-                "resourcePath": "sprites\/sMcShorthairWIPl\/sMcShorthairWIPl.yy",
+                "resourcePath": "sprites\\sMcShorthairReg\\sMcShorthairReg.yy",
                 "resourceType": "GMSprite"
             }
         },
