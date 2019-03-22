@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "13fbbc78-bb76-4939-bdc5-8a19fc0489d0",
+            "Value": {
+                "id": "89e80aea-532e-475e-a3f1-16eb71d036c4",
+                "resourcePath": "sprites\\grass\\grass.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1b49328a-b6b1-4346-8ada-c785e047e9cb",
             "Value": {
                 "id": "fa8d6b68-664d-4571-a082-25d0cee69547",
@@ -228,6 +236,14 @@
                 "id": "f4a44f81-f9fe-456a-8ba7-c622bcffc160",
                 "resourcePath": "views\/365e5528-1709-4578-92ac-83e7d679060c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3bfc1571-b4d5-4510-bf8e-2fc94a9b0ee7",
+            "Value": {
+                "id": "d3c76e87-3b3f-40fd-8bd4-2296731c2cbe",
+                "resourcePath": "sprites\\door\\door.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -511,6 +527,14 @@
             }
         },
         {
+            "Key": "943ea413-d919-4cee-a7b8-acaafab733ef",
+            "Value": {
+                "id": "463ee1f6-6e6c-4d96-a5fa-690890ae9502",
+                "resourcePath": "sprites\\CobbleWall\\CobbleWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "95382a65-db97-45e5-89ff-1f7e077c7960",
             "Value": {
                 "id": "84a338fc-3d32-46c0-85fa-c21eb549fabe",
@@ -554,7 +578,7 @@
             "Key": "a576a6b7-6d8a-4415-809d-b7fc6045d678",
             "Value": {
                 "id": "f1996bc9-ff71-47b4-965a-97f5a7715dae",
-                "resourcePath": "sprites\\Vines\\Vines.yy",
+                "resourcePath": "sprites\\vines\\vines.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -604,6 +628,14 @@
                 "id": "ca439015-40bf-4941-bb0e-0b1b51b19f7c",
                 "resourcePath": "objects\/oHellevator\/oHellevator.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b6dbf8a9-e71f-438d-930f-6df954ec9681",
+            "Value": {
+                "id": "61718e2a-de35-4f95-a714-02d48b64e980",
+                "resourcePath": "sprites\\torch\\torch.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -804,6 +836,14 @@
                 "id": "524f753a-85ce-477c-a57a-bc980b4d1388",
                 "resourcePath": "views\/f7ec27cf-a391-4478-9934-7417a044b8d9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f950c7c2-884d-4ded-afd7-24cb166802c5",
+            "Value": {
+                "id": "f630fe4d-3529-4383-ad5c-afcb5672398f",
+                "resourcePath": "sprites\\miniBack8\\miniBack8.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
