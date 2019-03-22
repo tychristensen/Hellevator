@@ -5,10 +5,22 @@
 if(!collision_line(x,y,oPlayer.x,oPlayer.y,oFloor,false,true))
 {
 	attacking = true;
+	lostPlayer = false
+}
+else
+{
+	if(!lostPlayer)
+	{
+		alarm[2] = followTime;
+		lostPlayer = true;
+	}
+}
+if(attacking)
+{
 	move_direction = sign(oPlayer.x-x);
 	horizontalSpeed = maxHorizontalSpeed*move_direction;
 }
-else
+/*else
 {
 	if(attacking = true)
 	{
@@ -16,7 +28,7 @@ else
 		horizontalSpeed = 0;
 	}
 	
-}
+}*/
 
 
 //code below handles falling, collisions, and movement. It is magical.
@@ -28,7 +40,7 @@ if (place_meeting(x+horizontalSpeed,y,oFloor2))
         x += sign(horizontalSpeed);
     }
 	horizontalSpeed = 0;
-	verticalSpeed += jumpSpeed
+	verticalSpeed = -jumpSpeed;
 }
 
 if (verticalSpeed < 10) verticalSpeed += grav;
