@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "54949197-d657-45db-bef2-19e06798750a",
+            "Value": {
+                "id": "318b048f-2e32-4769-9dad-3a196263c749",
+                "resourcePath": "sprites\\sWindGust\\sWindGust.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "56472246-8a14-4edc-87c2-122ddb7ecbcf",
             "Value": {
                 "id": "d14a881f-0d02-44e5-9341-a73c9b7551d3",
@@ -404,6 +412,14 @@
                 "id": "0f751423-a620-4173-994e-f85a3cc8a61d",
                 "resourcePath": "views\/5db1f7d7-6efb-4001-adb8-9849ed280016.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "667c0b74-095c-4f9a-bbe6-455c2963e791",
+            "Value": {
+                "id": "83850887-ffce-4d19-8330-7e4cca566c15",
+                "resourcePath": "sprites\\sprite57\\sprite57.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
