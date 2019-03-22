@@ -31,11 +31,16 @@
         "1d79828b-be20-4d06-b412-356e39bb0bda",
         "760d12c4-b720-44cc-8c22-9ce185366867",
         "ea7482be-1489-45f6-99bb-6624e98360fa",
+<<<<<<< Updated upstream
         "4e39f1c6-4f4b-4232-85a6-2e137258f654",
         "ec9c7d7c-6e9c-43ac-acd1-6b1bd7147c42",
         "7e46f451-eee4-4c5e-af2c-bd6b89c30e4f",
         "eee3487f-12ea-4e62-b3f3-a94a0030d2c2",
         "bb74f17d-a452-4405-8c3a-662eec0fb17f"
+=======
+        "2da2ddb1-a8c0-43be-b99b-92afb4b580dd",
+        "bc677e15-9764-4d40-b207-14ae9cca72b6"
+>>>>>>> Stashed changes
     ],
     "filterType": "GMObject",
     "folderName": "objects",

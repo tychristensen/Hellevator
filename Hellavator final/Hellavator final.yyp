@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "2da2ddb1-a8c0-43be-b99b-92afb4b580dd",
+            "Value": {
+                "id": "fba5cae3-58a2-4a4e-b7c6-64e3f25eb9c4",
+                "resourcePath": "objects\\oIndicator\\oIndicator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3409a742-8048-4aef-8553-e158b9a88ec6",
             "Value": {
                 "id": "0fc60ccd-46ab-458f-b786-67a84680d096",
@@ -247,10 +255,17 @@
             }
         },
         {
+<<<<<<< Updated upstream
             "Key": "3bfc1571-b4d5-4510-bf8e-2fc94a9b0ee7",
             "Value": {
                 "id": "d3c76e87-3b3f-40fd-8bd4-2296731c2cbe",
                 "resourcePath": "sprites\\door\\door.yy",
+=======
+            "Key": "3ce088fc-8291-461a-a8c1-1d2f68f67c1e",
+            "Value": {
+                "id": "39545b80-526b-47f3-bb94-0558b77d511f",
+                "resourcePath": "sprites\\sIndicator\\sIndicator.yy",
+>>>>>>> Stashed changes
                 "resourceType": "GMSprite"
             }
         },
@@ -743,6 +758,14 @@
             }
         },
         {
+            "Key": "bc677e15-9764-4d40-b207-14ae9cca72b6",
+            "Value": {
+                "id": "ccd77889-1f83-4753-9eda-0d96e882ca59",
+                "resourcePath": "objects\\oMeteorManager\\oMeteorManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "be348520-d84c-401a-9122-53786b0d135e",
             "Value": {
                 "id": "a915f12c-ab2f-447b-a003-fd917e9302ad",
@@ -804,6 +827,14 @@
                 "id": "dccac4cb-4a8e-4767-a3fd-eb65f37bffb0",
                 "resourcePath": "views\/cdfdaf65-ef93-4837-93c9-6bb416ee92a4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d0a69ead-d997-43f9-be3f-4e822b5c8ea6",
+            "Value": {
+                "id": "e67b7479-f654-4264-862c-6991eecb1f9a",
+                "resourcePath": "rooms\\Level2\\Level2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
