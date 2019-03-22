@@ -7,7 +7,7 @@ if(!collision_line(x,y,oPlayer.x,oPlayer.y,oFloor,false,true) and
 {
 	if(attackTimer == 0) {
 		attackTimer = attackCooldown;
-		var p = instance_create_layer(x,y,"Instances",oProjectile);
+		var p = instance_create_layer(x,y,"Instances",oBone);
 		p.image_angle = point_direction(x,y,oPlayer.x,oPlayer.y);
 	} else {
 		attackTimer--;
