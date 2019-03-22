@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-idle_move_chance = 4; //has 1 in 4 chance of moving every time the alarm goes off
+idle_move_chance = 8; //has 1 in 4 chance of moving every time the alarm goes off
 alarm_set(0,30); //initial alarm set
 moving = false; //whether the enemy is moving
 move_direction = 1; //which direction the enemy moves
