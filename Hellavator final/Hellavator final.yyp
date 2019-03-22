@@ -271,17 +271,18 @@
             }
         },
         {
-<<<<<<< Updated upstream
             "Key": "3bfc1571-b4d5-4510-bf8e-2fc94a9b0ee7",
             "Value": {
                 "id": "d3c76e87-3b3f-40fd-8bd4-2296731c2cbe",
                 "resourcePath": "sprites\\door\\door.yy",
-=======
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3ce088fc-8291-461a-a8c1-1d2f68f67c1e",
             "Value": {
                 "id": "39545b80-526b-47f3-bb94-0558b77d511f",
                 "resourcePath": "sprites\\sIndicator\\sIndicator.yy",
->>>>>>> Stashed changes
                 "resourceType": "GMSprite"
             }
         },
@@ -307,6 +308,14 @@
                 "id": "43b2a5d3-5929-41c0-a64e-f60ded4aae79",
                 "resourcePath": "sprites\/sSpikcicle\/sSpikcicle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b315c76-7a71-4474-8fe0-dec61288c706",
+            "Value": {
+                "id": "007032bd-1cba-480a-beec-aecec0fa2e05",
+                "resourcePath": "views\\4b315c76-7a71-4474-8fe0-dec61288c706.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -883,14 +892,6 @@
                 "id": "dccac4cb-4a8e-4767-a3fd-eb65f37bffb0",
                 "resourcePath": "views\/cdfdaf65-ef93-4837-93c9-6bb416ee92a4.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d0a69ead-d997-43f9-be3f-4e822b5c8ea6",
-            "Value": {
-                "id": "e67b7479-f654-4264-862c-6991eecb1f9a",
-                "resourcePath": "rooms\\Level2\\Level2.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

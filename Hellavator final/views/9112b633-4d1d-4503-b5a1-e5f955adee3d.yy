@@ -32,17 +32,15 @@
         "1d79828b-be20-4d06-b412-356e39bb0bda",
         "760d12c4-b720-44cc-8c22-9ce185366867",
         "ea7482be-1489-45f6-99bb-6624e98360fa",
-<<<<<<< Updated upstream
         "4e39f1c6-4f4b-4232-85a6-2e137258f654",
         "ec9c7d7c-6e9c-43ac-acd1-6b1bd7147c42",
         "7e46f451-eee4-4c5e-af2c-bd6b89c30e4f",
         "eee3487f-12ea-4e62-b3f3-a94a0030d2c2",
-        "bb74f17d-a452-4405-8c3a-662eec0fb17f",
         "82f0acca-fd7d-411e-8f1f-455c4b7e32b5",
         "b2d3180c-e0eb-428c-aed1-1449dee23c27",
         "ca2c1624-c6d4-41de-bf34-85d941661d78",
-        "de7514b6-9fc2-486f-ae79-6f49d7703ac3"
-        "bc677e15-9764-4d40-b207-14ae9cca72b6"
+        "de7514b6-9fc2-486f-ae79-6f49d7703ac3",
+        "bc677e15-9764-4d40-b207-14ae9cca72b6",
         "2da2ddb1-a8c0-43be-b99b-92afb4b580dd",
         "bb74f17d-a452-4405-8c3a-662eec0fb17f"
     ],
