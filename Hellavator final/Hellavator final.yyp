@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "180ecd2e-fc9e-42d2-92bd-b683d4ec5a5c",
+            "Value": {
+                "id": "11c6f967-0423-45de-9509-2ad9dd747396",
+                "resourcePath": "objects\\oBloodRiver\\oBloodRiver.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b49328a-b6b1-4346-8ada-c785e047e9cb",
             "Value": {
                 "id": "fa8d6b68-664d-4571-a082-25d0cee69547",
@@ -332,6 +340,14 @@
                 "id": "007032bd-1cba-480a-beec-aecec0fa2e05",
                 "resourcePath": "views\\4b315c76-7a71-4474-8fe0-dec61288c706.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4e15eb5f-70c6-48f8-af59-983acf573924",
+            "Value": {
+                "id": "d715df58-75ff-4f7c-befb-905be54468bc",
+                "resourcePath": "objects\\oFloor3\\oFloor3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -956,6 +972,14 @@
                 "id": "30b983e4-3490-40ed-bf5f-685b3b06a32a",
                 "resourcePath": "views\/e48de41f-9ead-42ca-9dab-874ed9363c62.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e62bf6fd-2663-4639-abf2-199365c08be9",
+            "Value": {
+                "id": "8df4b474-17a6-497c-b7af-fcd1201d41b6",
+                "resourcePath": "rooms\\Level3\\Level3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
