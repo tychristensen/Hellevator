@@ -47,10 +47,26 @@
             }
         },
         {
+            "Key": "05fbb2e3-429d-4958-ad17-05b7570bde83",
+            "Value": {
+                "id": "9859463b-1d1f-48d5-9ee1-6d6960456212",
+                "resourcePath": "objects\\oGround4\\oGround4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09050ea3-9a10-47ef-aa9b-6b0c29b19e95",
             "Value": {
                 "id": "20fb052c-c4ae-45a0-919e-f67798c89ee7",
                 "resourcePath": "sprites\/sWindUp\/sWindUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0977f2ae-6387-4d75-a7a9-fe28ca0d61ff",
+            "Value": {
+                "id": "cc704b41-4e57-482f-9a04-8a287b416794",
+                "resourcePath": "sprites\\sTombstone\\sTombstone.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "709ff697-14cf-437f-a997-da3824c76b73",
+            "Value": {
+                "id": "4bf2aaa4-80c5-438e-bf45-9657341e97b9",
+                "resourcePath": "rooms\\Level4\\Level4.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "718b62c9-6798-4b45-bb56-b044e9b6e0af",
             "Value": {
                 "id": "d11665e4-8244-4379-8c29-9c11230888c0",
@@ -474,7 +498,7 @@
             "Key": "817c3ee4-13f8-49cf-abc8-125096b39cbc",
             "Value": {
                 "id": "7cfbfb8d-6c3c-4612-b661-786d13cdab31",
-                "resourcePath": "rooms\/roomDemo\/roomDemo.yy",
+                "resourcePath": "rooms\\Level2\\Level2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -500,6 +524,14 @@
                 "id": "c7f7a13d-f258-4404-96b2-1e9d6234e26f",
                 "resourcePath": "sprites\/sGrapplePlacehold\/sGrapplePlacehold.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "82f0acca-fd7d-411e-8f1f-455c4b7e32b5",
+            "Value": {
+                "id": "30841f20-9aec-4b0e-9473-e058a418af63",
+                "resourcePath": "objects\\oFloor4\\oFloor4.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -583,6 +615,14 @@
             }
         },
         {
+            "Key": "9ef17182-58b8-4c0e-ab35-74c82ba41212",
+            "Value": {
+                "id": "264eb0b6-ac27-4bdc-9a10-aaa82674c10b",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "9efa8bce-3804-48e4-9320-eb74fec1ff63",
             "Value": {
                 "id": "b55cf96c-701f-4162-9ce5-d5ba65ca0859",
@@ -659,6 +699,14 @@
             "Value": {
                 "id": "ca439015-40bf-4941-bb0e-0b1b51b19f7c",
                 "resourcePath": "objects\/oHellevator\/oHellevator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b2d3180c-e0eb-428c-aed1-1449dee23c27",
+            "Value": {
+                "id": "ad4eeeda-536d-4172-9b95-08b7bf46936c",
+                "resourcePath": "objects\\oWall4L\\oWall4L.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -783,6 +831,14 @@
             }
         },
         {
+            "Key": "ca2c1624-c6d4-41de-bf34-85d941661d78",
+            "Value": {
+                "id": "7e0287e3-fa09-4780-8049-82aab35f38bf",
+                "resourcePath": "objects\\oWall4R\\oWall4R.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cadd116f-d0d9-4863-8207-dfe37154cef1",
             "Value": {
                 "id": "922e343d-be79-4808-9144-e26e70443499",
@@ -819,6 +875,14 @@
             "Value": {
                 "id": "77fe60b3-8548-433e-84c1-45aa3c14e71b",
                 "resourcePath": "objects\/oGround\/oGround.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "de7514b6-9fc2-486f-ae79-6f49d7703ac3",
+            "Value": {
+                "id": "23a50019-e181-4aa2-9f2d-63ade76211da",
+                "resourcePath": "objects\\oGravestone\\oGravestone.yy",
                 "resourceType": "GMObject"
             }
         },
