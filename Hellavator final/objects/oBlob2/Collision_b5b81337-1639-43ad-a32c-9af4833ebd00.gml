@@ -1,3 +1,3 @@
 /// @description Kill player when collide
 
-game_restart();
+room_restart();
