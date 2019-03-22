@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1683c1ee-d4fe-4dbc-a87c-542d971ad65f",
+            "Value": {
+                "id": "f385bfcd-a7b0-47db-aee7-4de0383a30dd",
+                "resourcePath": "sprites\\sMcFinalReg\\sMcFinalReg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1b49328a-b6b1-4346-8ada-c785e047e9cb",
             "Value": {
                 "id": "fa8d6b68-664d-4571-a082-25d0cee69547",
@@ -276,6 +284,14 @@
                 "id": "0fc60ccd-46ab-458f-b786-67a84680d096",
                 "resourcePath": "objects\/oCamera\/oCamera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "35b9c51c-cfa0-4f4b-97b7-e7b7e072c9aa",
+            "Value": {
+                "id": "b8302123-a52a-4d75-b9af-fb432c0eae8e",
+                "resourcePath": "sprites\\sLv8Flying\\sLv8Flying.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -487,6 +503,14 @@
             }
         },
         {
+            "Key": "7516797f-c86a-4da0-b66c-7075febf98b5",
+            "Value": {
+                "id": "871e7aac-34a3-4312-a51f-a5cbab09fc72",
+                "resourcePath": "sprites\\sHellavatorTalkExcited\\sHellavatorTalkExcited.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "760d12c4-b720-44cc-8c22-9ce185366867",
             "Value": {
                 "id": "b3c5179c-0c50-4bca-8ac6-1d0c45161743",
@@ -499,6 +523,14 @@
             "Value": {
                 "id": "153b7878-d2c4-4857-9bcf-d8f10dff9db8",
                 "resourcePath": "sprites\/sIceLake\/sIceLake.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7bca528d-39be-4e23-b81b-e1ca7df1c5dd",
+            "Value": {
+                "id": "f2106682-08bf-445c-8b6e-616177d1b2ea",
+                "resourcePath": "sprites\\sLv8GroundEnemy\\sLv8GroundEnemy.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -687,6 +719,14 @@
             }
         },
         {
+            "Key": "a6e600f7-170e-416a-a298-e7db3f5c3806",
+            "Value": {
+                "id": "0c90cb14-8a6d-4057-95af-70e1dc124b9a",
+                "resourcePath": "sprites\\sBossHellavator\\sBossHellavator.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a85daf54-b748-497f-95f4-2fd603d3114f",
             "Value": {
                 "id": "ff35ec71-bbcc-417d-bb1d-c9cebf9e993a",
@@ -700,6 +740,14 @@
                 "id": "096cb475-16c0-4479-82af-0288a82af691",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a93aa4d4-fa13-4659-935c-220638b0390a",
+            "Value": {
+                "id": "cd500587-2abe-4acd-b1a1-fbda349166e1",
+                "resourcePath": "sprites\\sLv8Special\\sLv8Special.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -851,6 +899,14 @@
             "Value": {
                 "id": "b96be362-d666-4e07-aaf6-4524c901abef",
                 "resourcePath": "sprites\/sLv2DemonFlying\/sLv2DemonFlying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c127e61d-1eba-466c-aa16-64897ccf00e1",
+            "Value": {
+                "id": "e16340fd-c564-4d03-bff5-12a133c7172d",
+                "resourcePath": "sprites\\sBossMinotaur\\sBossMinotaur.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1012,6 +1068,14 @@
                 "id": "0f80c261-4169-4ace-a624-928d6211d546",
                 "resourcePath": "objects\\oSpikes5\\oSpikes5.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f3b020e9-6473-4510-a2a2-f0eeb3719481",
+            "Value": {
+                "id": "4e9b2a32-831f-4bef-a9f6-9d167e08d641",
+                "resourcePath": "sprites\\sHellavatorTalkSad\\sHellavatorTalkSad.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
