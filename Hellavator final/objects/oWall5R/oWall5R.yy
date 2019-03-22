@@ -1,14 +1,14 @@
 {
-    "id": "ea7482be-1489-45f6-99bb-6624e98360fa",
+    "id": "7e46f451-eee4-4c5e-af2c-bd6b89c30e4f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oWall",
+    "name": "oWall5R",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "c5485865-e474-41ea-bd52-3793547afc54",
+    "parentObjectId": "ea7482be-1489-45f6-99bb-6624e98360fa",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -23,7 +23,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "5d7fdf84-5113-45ac-a621-ed173eea95ed",
+    "solid": false,
+    "spriteId": "2d19e3cc-4d44-444f-a761-061555b0512a",
     "visible": true
 }

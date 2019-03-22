@@ -4,21 +4,17 @@
 //attack code. checks line of sight to player and moves to player if unobstructed
 if(!collision_line(x,y,oPlayer.x,oPlayer.y,oFloor,false,true))
 {
-	attacking = true;
-	move_direction = sign(oPlayer.x-x);
-	horizontalSpeed = maxHorizontalSpeed*move_direction;
-}
-else
-{
-	if(attacking = true)
-	{
-		attacking = false;
-		horizontalSpeed = 0;
+	if(attackTimer == 0) {
+		attackTimer = attackCooldown;
+		var p = instance_create_layer(x,y,"Instances",oProjectile);
+		p.image_angle = point_direction(x,y,oPlayer.x,oPlayer.y);
+	} else {
+		attackTimer--;
 	}
-	
 }
 
 
+/*
 //code below handles falling, collisions, and movement. It is magical.
 //Horizontal Collision
 if (place_meeting(x+horizontalSpeed,y,oFloor))
@@ -40,8 +36,7 @@ if (place_meeting(x,y+verticalSpeed,oFloor))
     }
     verticalSpeed = 0;
 }
-y += verticalSpeed;
-x += horizontalSpeed;
+*/
 
 
 

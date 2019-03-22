@@ -100,20 +100,8 @@ switch(state)
 }
 
 //horizontal collision
-if (place_meeting(x+horizontalSpeed,y,oFloor))
-{
-    while(!place_meeting(x+sign(horizontalSpeed),y,oFloor))
-    {
-        x += sign(horizontalSpeed);
-    }
-	horizontalSpeed = 0;
-	if(state == moveState.grappling)
-	{
-		ropeAngle = point_direction(grappleX,grappleY,x,y);
-		ropeAngleVelocity = 0;
-	}
-}
-else if (place_meeting(x+horizontalSpeed,y,oWall))
+
+if (place_meeting(x+horizontalSpeed,y,oWall))
 {
 	while(!place_meeting(x+sign(horizontalSpeed),y,oWall))
     {
@@ -140,6 +128,17 @@ else if (place_meeting(x+horizontalSpeed,y,oWall))
 	{
 		verticalSpeed -= abs(horizontalSpeed) * 0.1;
 		horizontalSpeed = 0;
+	}
+} else if (place_meeting(x+horizontalSpeed,y,oFloor)) {
+    while(!place_meeting(x+sign(horizontalSpeed),y,oFloor))
+    {
+        x += sign(horizontalSpeed);
+    }
+	horizontalSpeed = 0;
+	if(state == moveState.grappling)
+	{
+		ropeAngle = point_direction(grappleX,grappleY,x,y);
+		ropeAngleVelocity = 0;
 	}
 } else if (!(place_meeting(x+horizontalSpeed,y,oWall))) {
 	wallJump = false;

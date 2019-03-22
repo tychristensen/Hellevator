@@ -1,3 +1,3 @@
 /// @description Initialize up wind
 
-WIND_CONSTANT = 1;
+WIND_CONSTANT = 0.7;
