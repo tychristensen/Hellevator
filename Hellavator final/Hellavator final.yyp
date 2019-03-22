@@ -319,14 +319,6 @@
             }
         },
         {
-            "Key": "4d25bb7d-4b72-41de-8bc4-5f7b3e262d26",
-            "Value": {
-                "id": "afef8b05-f606-4070-a421-c8ffb7381729",
-                "resourcePath": "sprites\\sTESTAPRITE\\sTESTAPRITE.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4e39f1c6-4f4b-4232-85a6-2e137258f654",
             "Value": {
                 "id": "e16c7be1-da01-44a7-8ff9-95162d4bb150",
@@ -895,6 +887,14 @@
             }
         },
         {
+            "Key": "d0a69ead-d997-43f9-be3f-4e822b5c8ea6",
+            "Value": {
+                "id": "820aee50-f5b7-4166-bd67-bcd78d187c0b",
+                "resourcePath": "rooms\\Level2\\Level2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d9f8434b-3031-41f2-82d7-9f319f6858b0",
             "Value": {
                 "id": "300d99a5-f4f4-44de-95aa-25c3fe122eaf",
@@ -919,6 +919,14 @@
             }
         },
         {
+            "Key": "e2538bfb-1d99-45ad-be1a-9775842b8367",
+            "Value": {
+                "id": "8e921fe0-eb29-4298-986b-8543ede98daa",
+                "resourcePath": "objects\\oArcher\\oArcher.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e48de41f-9ead-42ca-9dab-874ed9363c62",
             "Value": {
                 "id": "30b983e4-3490-40ed-bf5f-685b3b06a32a",
@@ -931,6 +939,14 @@
             "Value": {
                 "id": "559182c9-8443-4d1e-935f-4acf116b5f06",
                 "resourcePath": "objects\/oBlob2\/oBlob2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e98b8a88-6f16-4d01-aeac-150f5da8810f",
+            "Value": {
+                "id": "1aca8f71-18a2-433f-84c6-7d707bc0b7f5",
+                "resourcePath": "objects\\oArcher4\\oArcher4.yy",
                 "resourceType": "GMObject"
             }
         },

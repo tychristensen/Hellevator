@@ -2,10 +2,9 @@
 // You can write your code in this editor
 
 //attack code. checks line of sight to player and moves to player if unobstructed
-if(!collision_line(x,y,oPlayer.x,oPlayer.y,oFloor,false,true) or
-		collision_line(x,y,oPlayer.x,oPlayer.y,oGravestone,false,true))
+if(!collision_line(x,y,oPlayer.x,oPlayer.y,oFloor,false,true))
 {
-	attacking = true;
+ 	attacking = true;
 	move_direction = sign(oPlayer.x-x);
 	horizontalSpeed = maxHorizontalSpeed*move_direction;
 }

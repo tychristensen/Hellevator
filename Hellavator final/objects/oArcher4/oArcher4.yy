@@ -1,23 +1,23 @@
 {
-    "id": "05fbb2e3-429d-4958-ad17-05b7570bde83",
+    "id": "e98b8a88-6f16-4d01-aeac-150f5da8810f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGround4",
+    "name": "oArcher4",
     "eventList": [
         {
-            "id": "62430cf8-f1d7-47a4-90d2-c41c409a0e1d",
+            "id": "799e6ca8-e4c1-4bc5-8821-b09b7e199ca4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "05fbb2e3-429d-4958-ad17-05b7570bde83"
+            "m_owner": "e98b8a88-6f16-4d01-aeac-150f5da8810f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "dd29f2ea-1647-473e-8539-2d54f289796c",
+    "parentObjectId": "e2538bfb-1d99-45ad-be1a-9775842b8367",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -31,28 +31,28 @@
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "c772de0a-8730-446a-b408-acc6e11a86f8",
+            "id": "f4e57b4b-c632-4ca6-b105-3a664763747e",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
             "y": 0
         },
         {
-            "id": "13f0592a-512d-4608-8b55-1929072a0872",
+            "id": "c2bf4cd4-4b6f-4cd3-ba04-be140cb4a79f",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 64,
             "y": 0
         },
         {
-            "id": "a1afb6d0-2dfa-4adf-b348-97cda209b012",
+            "id": "d5256696-602a-48ab-b87e-7fe8243d1a67",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 64,
             "y": 64
         },
         {
-            "id": "be343a90-a88d-4ac3-877b-3791f85081ed",
+            "id": "8941cc21-b114-42df-807b-4064951d9f0b",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
