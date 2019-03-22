@@ -28,6 +28,7 @@ if (place_meeting(x+horizontalSpeed,y,oFloor2))
         x += sign(horizontalSpeed);
     }
 	horizontalSpeed = 0;
+	verticalSpeed += jumpSpeed
 }
 
 if (verticalSpeed < 10) verticalSpeed += grav;
