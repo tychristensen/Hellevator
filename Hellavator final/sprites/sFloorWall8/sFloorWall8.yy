@@ -2,7 +2,7 @@
     "id": "667c0b74-095c-4f9a-bbe6-455c2963e791",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite57",
+    "name": "sFloorWall8",
     "For3D": false,
     "HTile": false,
     "VTile": false,
