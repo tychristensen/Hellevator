@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "1ec755dd-ccbd-461c-9aef-62737edf1273",
+            "Value": {
+                "id": "ea585552-f758-4065-a20d-9e94f260c3cb",
+                "resourcePath": "sprites\\miniBack9\\miniBack9.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "202b5434-69c0-4b08-a7fc-efff7e3c753f",
             "Value": {
                 "id": "fa0e69bc-88c6-4cc1-b0df-b8e75ad89e87",
