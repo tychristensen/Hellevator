@@ -1,23 +1,23 @@
 {
-    "id": "eee3487f-12ea-4e62-b3f3-a94a0030d2c2",
+    "id": "eedc5f0e-09ae-43fc-9e81-46c9cd425a02",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oSpikes5",
+    "name": "oWindRight",
     "eventList": [
         {
-            "id": "c3c8cca9-2da3-459d-8427-2544747cf9a2",
+            "id": "32f6a65a-9d07-422f-9791-7f90445f0768",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "6e04c8b6-c43c-4a19-bb1b-79d014228b16",
+            "collisionObjectId": "e2538bfb-1d99-45ad-be1a-9775842b8367",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "eee3487f-12ea-4e62-b3f3-a94a0030d2c2"
+            "m_owner": "eedc5f0e-09ae-43fc-9e81-46c9cd425a02"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "2984afd4-c4bb-412d-b543-53c02e554c35",
+    "parentObjectId": "9bf584fa-d775-4e85-9dc2-d8d73a9e5689",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "438b8476-727d-4f9d-8de5-08c842374cfc",
+    "spriteId": "1b4d21b2-d2c8-4d5d-ae26-c6c6665f472e",
     "visible": true
 }

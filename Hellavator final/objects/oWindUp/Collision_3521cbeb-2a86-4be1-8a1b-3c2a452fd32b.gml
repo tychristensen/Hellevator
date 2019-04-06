@@ -1,3 +1,3 @@
 /// @description Interact with blob
 
-other.verticalSpeed -= WIND_CONSTANT;
+other.verticleSpeed -= WIND_CONSTANT;
