@@ -202,6 +202,8 @@ else if (place_meeting(x,y+verticalSpeed,oWall))
 		ropeAngle = point_direction(grappleX,grappleY,x,y);
 		ropeAngleVelocity = 0;
 	}
+} else {
+	canJump = false;
 }
 
 //updates x and y based on speed
