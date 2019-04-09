@@ -522,7 +522,7 @@
             "Key": "54ea46a0-b69b-4cb2-a270-711c96555c5c",
             "Value": {
                 "id": "ff5d2985-a099-4036-af97-addcd6ad1bf1",
-                "resourcePath": "objects\\oScene1\\oScene1.yy",
+                "resourcePath": "objects\\oTextboxScene1_1\\oTextboxScene1_1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -635,6 +635,14 @@
             "Value": {
                 "id": "5069b50e-a51f-49a7-95b6-3131b2c6159f",
                 "resourcePath": "objects\\oMedusa\\oMedusa.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6e6250be-ea0e-4ed0-bfe3-8f6714367bee",
+            "Value": {
+                "id": "3ae33ea4-fe43-4411-8a2a-a25faa0d99fa",
+                "resourcePath": "objects\\oScene1_1Trigger\\oScene1_1Trigger.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -876,6 +884,14 @@
                 "id": "84a338fc-3d32-46c0-85fa-c21eb549fabe",
                 "resourcePath": "views\/95382a65-db97-45e5-89ff-1f7e077c7960.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "994615ad-9696-4d88-a4a5-77b7ce23ad9f",
+            "Value": {
+                "id": "43662bf5-67cd-45a1-811d-efc89c0f4efc",
+                "resourcePath": "objects\\oParentTalker\\oParentTalker.yy",
+                "resourceType": "GMObject"
             }
         },
         {
