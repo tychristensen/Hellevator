@@ -8,6 +8,6 @@ if (place_meeting(oScene12_1Trigger.x,oScene12_1Trigger.y,oPlayer)) {
 } else {
 	if (myTextbox != noone) {
 		instance_destroy(myTextbox); 
-		//myTextbox = noone; 
+		myTextbox = noone; 
 	}
 }

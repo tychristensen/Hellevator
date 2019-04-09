@@ -7,7 +7,7 @@ if(keyboard_check_pressed(ord("F"))) {
 		charCount = 0; 
 	} else {
 		instance_destroy(); 
-		//creator.alarm[1] = 1; 
+		creator.alarm[1] = 1; 
 		charCount = 0; 
 	}
 }
