@@ -6,6 +6,6 @@ moving = false; //whether the enemy is moving
 move_direction = 1; //which direction the enemy moves
 maxHorizontalSpeed = 3;//the speed at which the demon moves
 horizontalSpeed = 0;
-verticleSpeed = 0;
+verticalSpeed = 0;
 grav = .5;
 attacking = false;

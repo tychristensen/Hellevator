@@ -30,17 +30,17 @@ if (place_meeting(x+horizontalSpeed,y,oFloor))
 	horizontalSpeed = 0;
 }
 
-if (verticleSpeed < 10) verticleSpeed += grav;
+if (verticalSpeed < 10) verticalSpeed += grav;
 //vertical collision
-if (place_meeting(x,y+verticleSpeed,oFloor))
+if (place_meeting(x,y+verticalSpeed,oFloor))
 {
-    while(!place_meeting(x,y+sign(verticleSpeed),oFloor))
+    while(!place_meeting(x,y+sign(verticalSpeed),oFloor))
     {
-        y += sign(verticleSpeed);
+        y += sign(verticalSpeed);
     }
-    verticleSpeed = 0;
+    verticalSpeed = 0;
 }
-y += verticleSpeed;
+y += verticalSpeed;
 x += horizontalSpeed;
 
 

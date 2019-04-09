@@ -12,6 +12,7 @@ switch(state)
 	case(moveState.normal):
 	{
 		// Code in order to have sprite move in accordance to left or right key
+		
 		var move = keyRight + keyLeft; 
 		if (move != 0) {
 			image_xscale = -move;
