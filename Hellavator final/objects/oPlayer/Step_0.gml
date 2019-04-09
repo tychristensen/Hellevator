@@ -7,11 +7,16 @@ keyJump = keyboard_check_pressed(vk_space);
 keyEscape = keyboard_check_pressed(vk_escape);
 fireGrapple = mouse_check_button_pressed(mb_left);
 
-
 switch(state)
 {
 	case(moveState.normal):
 	{
+		// Code in order to have sprite move in accordance to left or right key
+		var move = keyRight + keyLeft; 
+		if (move != 0) {
+			image_xscale = -move;
+		} 
+
 		//adds acceleration due to gravity into vertical speed
 		verticalSpeed += grav;
 

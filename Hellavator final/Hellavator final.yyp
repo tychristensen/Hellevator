@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "152a93d6-2c40-49b9-8de6-414b1d0be99b",
+            "Value": {
+                "id": "5b6f1801-85c1-4f54-86cd-12c4f5657d92",
+                "resourcePath": "rooms\\TravelRoom2\\TravelRoom2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "180ecd2e-fc9e-42d2-92bd-b683d4ec5a5c",
             "Value": {
                 "id": "11c6f967-0423-45de-9509-2ad9dd747396",
@@ -511,11 +519,27 @@
             }
         },
         {
+            "Key": "54ea46a0-b69b-4cb2-a270-711c96555c5c",
+            "Value": {
+                "id": "ff5d2985-a099-4036-af97-addcd6ad1bf1",
+                "resourcePath": "objects\\oScene1\\oScene1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "56472246-8a14-4edc-87c2-122ddb7ecbcf",
             "Value": {
                 "id": "d14a881f-0d02-44e5-9341-a73c9b7551d3",
                 "resourcePath": "objects\/oSmallMeteor\/oSmallMeteor.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "56725655-7031-436f-83ee-d4b794e18367",
+            "Value": {
+                "id": "95962f67-730d-47ae-8da1-5f07d6550038",
+                "resourcePath": "fonts\\fnt_text\\fnt_text.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -991,6 +1015,14 @@
             }
         },
         {
+            "Key": "b42341c2-d568-4972-91af-a644988676ab",
+            "Value": {
+                "id": "c88efd8c-2005-424d-a52d-84444b474992",
+                "resourcePath": "rooms\\TravelRoom\\TravelRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b6229581-c225-4e8a-a4fe-74578da3b1bc",
             "Value": {
                 "id": "26fe9f07-12bc-4a98-b7bd-890c46bdf1af",
@@ -1199,6 +1231,14 @@
             }
         },
         {
+            "Key": "d7018807-7c3a-4a5b-9da0-db60ddbe16a7",
+            "Value": {
+                "id": "57161825-a242-485c-987a-5b358715ed33",
+                "resourcePath": "rooms\\TravelRoom5\\TravelRoom5.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d94a2f6c-1ca0-4462-ac26-79ebffd583ef",
             "Value": {
                 "id": "10d4a3e9-a398-4f61-b2d0-a198b5b90480",
@@ -1244,6 +1284,14 @@
                 "id": "8e921fe0-eb29-4298-986b-8543ede98daa",
                 "resourcePath": "objects\\oArcher\\oArcher.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e3056e5b-c308-4f8a-adc4-d5a8248d3f34",
+            "Value": {
+                "id": "2868368f-0168-446d-92d0-edc4a5078e8e",
+                "resourcePath": "rooms\\TravelRoom3\\TravelRoom3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1319,6 +1367,14 @@
             }
         },
         {
+            "Key": "ecd03e47-df99-4e41-a326-3f1f1b057835",
+            "Value": {
+                "id": "ee2884aa-0a44-42f4-b0e4-dac784ab9012",
+                "resourcePath": "rooms\\TravelRoom4\\TravelRoom4.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "ed5f4ade-2508-4423-b91c-2fc86ba9436a",
             "Value": {
                 "id": "50cd30d3-e60d-452a-8895-bf64ceae3535",
@@ -1391,11 +1447,27 @@
             }
         },
         {
+            "Key": "f4b639d3-10a0-491d-bbf3-df9780f9c6f2",
+            "Value": {
+                "id": "a2da6bd3-20b5-42ad-92e3-57fa42f99c6e",
+                "resourcePath": "rooms\\TravelRoom1\\TravelRoom1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "f7ec27cf-a391-4478-9934-7417a044b8d9",
             "Value": {
                 "id": "524f753a-85ce-477c-a57a-bc980b4d1388",
                 "resourcePath": "views\/f7ec27cf-a391-4478-9934-7417a044b8d9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f810c99e-1214-445d-84fe-a98b464e72c7",
+            "Value": {
+                "id": "0264f8dd-d3be-4133-8a41-894d1702ea88",
+                "resourcePath": "sprites\\sbox\\sbox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
