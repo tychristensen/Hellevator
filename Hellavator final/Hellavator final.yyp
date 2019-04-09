@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "07088bb6-c335-4061-a757-b89a289fbf06",
+            "Value": {
+                "id": "ec7e6b11-8db6-4a97-baf3-8bd6a6fbaefd",
+                "resourcePath": "objects\\oTextboxScene4\\oTextboxScene4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09050ea3-9a10-47ef-aa9b-6b0c29b19e95",
             "Value": {
                 "id": "20fb052c-c4ae-45a0-919e-f67798c89ee7",
@@ -68,6 +76,14 @@
                 "id": "cc704b41-4e57-482f-9a04-8a287b416794",
                 "resourcePath": "sprites\\sTombstone\\sTombstone.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "099d8c34-f43d-4088-b356-a5ba79fc095b",
+            "Value": {
+                "id": "b1f7ad0a-121f-474e-9bc3-967889229d79",
+                "resourcePath": "objects\\oScene2Trigger\\oScene2Trigger.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -367,10 +383,26 @@
             }
         },
         {
+            "Key": "327620d5-468a-467a-a634-c6b744f5f385",
+            "Value": {
+                "id": "e8d7b844-2388-423c-ab34-1995d7e492e9",
+                "resourcePath": "objects\\oTextboxScene1_2\\oTextboxScene1_2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3409a742-8048-4aef-8553-e158b9a88ec6",
             "Value": {
                 "id": "0fc60ccd-46ab-458f-b786-67a84680d096",
                 "resourcePath": "objects\/oCamera\/oCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3496848e-53b0-48f7-af70-b86c1ed975b9",
+            "Value": {
+                "id": "e75b2321-2489-4489-95e4-b4b7a00edb27",
+                "resourcePath": "objects\\oScene1_2Trigger\\oScene1_2Trigger.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -420,6 +452,14 @@
                 "id": "43b2a5d3-5929-41c0-a64e-f60ded4aae79",
                 "resourcePath": "sprites\/sSpikcicle\/sSpikcicle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "483b05e3-7c90-400c-86f4-383b7a2ca6d6",
+            "Value": {
+                "id": "3e6c2b9e-1053-4aa2-a643-57f6990b0097",
+                "resourcePath": "objects\\oTextboxScene3\\oTextboxScene3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -815,6 +855,14 @@
             }
         },
         {
+            "Key": "8684a6c9-19bf-4b88-a8a5-18b99d481527",
+            "Value": {
+                "id": "a860cfc9-a391-4e50-968a-420aeaa62e8b",
+                "resourcePath": "objects\\oScene3Trigger\\oScene3Trigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "897e77eb-8189-459b-9e5d-c61d438b6cef",
             "Value": {
                 "id": "be49d77d-88e6-4e16-a8e4-7ead31d93bec",
@@ -887,10 +935,10 @@
             }
         },
         {
-            "Key": "994615ad-9696-4d88-a4a5-77b7ce23ad9f",
+            "Key": "9705bc25-259d-4c00-9446-a8f81b56a93f",
             "Value": {
-                "id": "43662bf5-67cd-45a1-811d-efc89c0f4efc",
-                "resourcePath": "objects\\oParentTalker\\oParentTalker.yy",
+                "id": "ada86359-3829-4e9d-a625-4882d92799c3",
+                "resourcePath": "objects\\oTextboxScene2\\oTextboxScene2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1239,6 +1287,14 @@
             }
         },
         {
+            "Key": "d19fd7f7-62b9-44f5-bc0c-1ba0474cd90f",
+            "Value": {
+                "id": "bdea3635-a490-4080-ab36-842f641eac4f",
+                "resourcePath": "objects\\oScene4Trigger\\oScene4Trigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d46f2793-bc63-40fc-805d-823622ef8104",
             "Value": {
                 "id": "4421d89d-dc24-4061-807d-643a62eb52d0",
@@ -1447,6 +1503,14 @@
             }
         },
         {
+            "Key": "f189c4a2-41d2-452b-88d7-be451cd20051",
+            "Value": {
+                "id": "7709bb4d-ed13-4b2e-982d-81eda8242db7",
+                "resourcePath": "objects\\oScene5Trigger\\oScene5Trigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "6645767f-8c5a-49b1-b397-2f953adc91a3",
@@ -1468,6 +1532,14 @@
                 "id": "a2da6bd3-20b5-42ad-92e3-57fa42f99c6e",
                 "resourcePath": "rooms\\TravelRoom1\\TravelRoom1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f77ae3f7-14a6-4252-a67a-ae52e04898bb",
+            "Value": {
+                "id": "38c4cebf-b16c-4800-9146-9c163f55282e",
+                "resourcePath": "objects\\oTextboxScene5\\oTextboxScene5.yy",
+                "resourceType": "GMObject"
             }
         },
         {

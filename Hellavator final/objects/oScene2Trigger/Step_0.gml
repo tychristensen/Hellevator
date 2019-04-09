@@ -1,6 +1,6 @@
-if (place_meeting(oParentTalker.x,oParentTalker.y,oPlayer)) {
+if (place_meeting(oScene2Trigger.x,oScene2Trigger.y,oPlayer)) {
 	if (myTextbox == noone) {
-		myTextbox = instance_create_layer(oPlayer.x,oPlayer.y,"Text",oTextboxScene1);
+		myTextbox = instance_create_layer(oScene2Trigger.x,oScene2Trigger.y,"Text",oTextboxScene2);
 		myTextbox.text = myText; 
 		myTextbox.creator = self; 
 		myTextbox.name = myName; 
@@ -8,6 +8,6 @@ if (place_meeting(oParentTalker.x,oParentTalker.y,oPlayer)) {
 } else {
 	if (myTextbox != noone) {
 		instance_destroy(myTextbox); 
-		myTextbox = noone; 
+		//myTextbox = noone; 
 	}
 }
