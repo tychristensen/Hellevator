@@ -5,6 +5,7 @@ if (room == Level0) {
 		draw_text(room_width/2, 300, "Press Enter to Start the Game"); 
 		draw_text(room_width/2, 350, "Press Escape at any point in the game to exit"); 
 		draw_text(room_width/2, 400, "You have one life before being sent back to the start of your level, so make it count!");
+		draw_text(room_width/2, 450, "In order to continue text events click 'F'");
 } else if (room == LevelEnd) {
 	draw_set_halign(fa_center);
 	var r = c_red; 

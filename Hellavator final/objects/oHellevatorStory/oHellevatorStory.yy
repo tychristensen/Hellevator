@@ -1,18 +1,18 @@
 {
-    "id": "af90b32a-ad0e-49b3-98b2-b58bea511223",
+    "id": "2be3d4cd-5b0f-48a7-8381-bd391bfad04e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oHellevator",
+    "name": "oHellevatorStory",
     "eventList": [
         {
-            "id": "ef5c8145-827c-4831-832b-7d2bc3696254",
+            "id": "eb6b4f7e-34a4-48a0-881a-cbe880032030",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "bbedefe4-0206-4f39-bd2f-2d59acaecdd4",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "af90b32a-ad0e-49b3-98b2-b58bea511223"
+            "m_owner": "2be3d4cd-5b0f-48a7-8381-bd391bfad04e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

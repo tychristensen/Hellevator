@@ -286,6 +286,25 @@
             }
         },
         {
+            "Key": "0fdbcff8-a4ed-4b2a-bbac-24ea467eeaed",
+            "Value": {
+                "id": "9034b4e2-a699-40ba-9e7c-fd3f2f8a32e8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sVoidPortal\/sVoidPortal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ff0b61a-45b7-4e5f-b9e7-1a06cade369b",
             "Value": {
                 "id": "38550c9a-0f9c-44c0-9da4-46d9a38c0b1f",
@@ -362,25 +381,6 @@
             }
         },
         {
-            "Key": "152a93d6-2c40-49b9-8de6-414b1d0be99b",
-            "Value": {
-                "id": "5b6f1801-85c1-4f54-86cd-12c4f5657d92",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "rooms\/TravelRoom2\/TravelRoom2.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "165d113f-3ad0-4e8e-9028-ce2a89b37f83",
             "Value": {
                 "id": "47405dc7-a57e-41cb-bd60-ac9facf16233",
@@ -415,6 +415,25 @@
                     "default"
                 ],
                 "resourcePath": "objects\/oBloodRiver\/oBloodRiver.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "19e9b9bd-5939-4883-9933-27bf212e6958",
+            "Value": {
+                "id": "3a66d59a-8ca5-4c41-81c9-52409736b70a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oVoidPortal\/oVoidPortal.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -853,6 +872,25 @@
                 ],
                 "resourcePath": "sprites\/sWall2\/sWall2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2be3d4cd-5b0f-48a7-8381-bd391bfad04e",
+            "Value": {
+                "id": "bdc9a1af-cb17-4b9e-8e64-b95deae58830",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oHellevatorStory\/oHellevatorStory.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3475,25 +3513,6 @@
                 ],
                 "resourcePath": "objects\/oLimbo3\/oLimbo3.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "d7018807-7c3a-4a5b-9da0-db60ddbe16a7",
-            "Value": {
-                "id": "57161825-a242-485c-987a-5b358715ed33",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "rooms\/TravelRoom5\/TravelRoom5.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

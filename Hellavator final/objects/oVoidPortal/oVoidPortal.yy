@@ -1,18 +1,18 @@
 {
-    "id": "af90b32a-ad0e-49b3-98b2-b58bea511223",
+    "id": "19e9b9bd-5939-4883-9933-27bf212e6958",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oHellevator",
+    "name": "oVoidPortal",
     "eventList": [
         {
-            "id": "ef5c8145-827c-4831-832b-7d2bc3696254",
+            "id": "72b022dd-6353-43b2-929f-68cdb2045302",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "bbedefe4-0206-4f39-bd2f-2d59acaecdd4",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "af90b32a-ad0e-49b3-98b2-b58bea511223"
+            "m_owner": "19e9b9bd-5939-4883-9933-27bf212e6958"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9efa8bce-3804-48e4-9320-eb74fec1ff63",
+    "spriteId": "0fdbcff8-a4ed-4b2a-bbac-24ea467eeaed",
     "visible": true
 }
