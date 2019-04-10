@@ -1,7 +1,7 @@
 /// @description Scene 1 Dialog TextBox Test
 
 // draw textbox
-draw_rectangle(oTextboxScene4.x- 2, oTextboxScene4.y - 2, oTextboxScene4.x + boxWidth + 2, oTextboxScene4.y + boxWidth + 2, false); 
+//draw_rectangle(oTextboxScene4.x- 2, oTextboxScene4.y - 2, oTextboxScene4.x + boxWidth + 2, oTextboxScene4.y + boxWidth + 2, false); 
 draw_sprite(sbox, 0,oTextboxScene4.x,oTextboxScene4.y);
 
 // draw text 

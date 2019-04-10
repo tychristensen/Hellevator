@@ -25,7 +25,8 @@
         "b89713ad-6820-417b-8566-b068738b7141",
         "8f2fa3c2-16ed-4223-8de3-da5b61ca1a4a",
         "faca0cb8-4de4-408c-af95-357638a56333",
-        "2cd9a7ac-4479-40f9-a96f-1acb8c53d16d"
+        "2cd9a7ac-4479-40f9-a96f-1acb8c53d16d",
+        "ab58764c-75dc-4bcc-9c3f-9b1676190c8e"
     ],
     "IsDnD": false,
     "layers": [
@@ -43,7 +44,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_64C33717","id": "ab58764c-75dc-4bcc-9c3f-9b1676190c8e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_64C33717","objId": "a6822424-c219-459e-a54a-99a2f5772320","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 672,"y": 640}
             ],
             "layers": [
 
