@@ -7,6 +7,8 @@ keyJump = keyboard_check_pressed(vk_space);
 keyEscape = keyboard_check_pressed(vk_escape);
 fireGrapple = mouse_check_button_pressed(mb_left);
 
+
+
 switch(state)
 {
 	case(moveState.normal):
@@ -92,7 +94,7 @@ switch(state)
 		baseX = grappleX + lengthdir_x(ropeLength,ropeAngle);
 		baseY = grappleY + lengthdir_y(ropeLength,ropeAngle);
 		
-		horizontalSpeed = baseX - x;
+		horizontalSpeed = round(baseX - x);
 		verticalSpeed = baseY - y;
 		
 		if(keyJump)
