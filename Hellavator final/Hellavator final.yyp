@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "6d48f633-26ed-45af-b383-668d3fcf93e8",
+            "Value": {
+                "id": "5d061d2f-3f91-4546-bd18-a75df89a0e60",
+                "resourcePath": "rooms\\Level9a\\Level9a.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6dcb2794-2dcb-4b25-af8e-5c850103cabd",
             "Value": {
                 "id": "378ebbeb-37ad-4a7f-94c0-4461f90d04b6",
@@ -547,6 +555,14 @@
             "Value": {
                 "id": "70d6fc1d-b27a-47f2-8e04-3754619031ef",
                 "resourcePath": "objects\/oFloor2\/oFloor2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7d01e5b3-0e5b-4caf-83e4-8db46f201c31",
+            "Value": {
+                "id": "7834092c-de71-4c51-a964-602f65cf52b7",
+                "resourcePath": "objects\\oHellaBoss\\oHellaBoss.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -724,6 +740,14 @@
                 "id": "0c90cb14-8a6d-4057-95af-70e1dc124b9a",
                 "resourcePath": "sprites\\sBossHellavator\\sBossHellavator.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a850ba34-b18f-482a-b67f-b9838bf341e2",
+            "Value": {
+                "id": "c0b213ad-99ef-4ff4-a7a7-ba190759e109",
+                "resourcePath": "objects\\oFloor8\\oFloor8.yy",
+                "resourceType": "GMObject"
             }
         },
         {
