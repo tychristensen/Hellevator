@@ -1,5 +1,5 @@
 {
-    "id": "1b5cfef5-2712-492c-a9f7-2289fce11e8b",
+    "id": "a850ba34-b18f-482a-b67f-b9838bf341e2",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oFloor8",
@@ -23,7 +23,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
+    "solid": true,
     "spriteId": "667c0b74-095c-4f9a-bbe6-455c2963e791",
     "visible": true
 }
