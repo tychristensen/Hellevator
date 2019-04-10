@@ -120,20 +120,12 @@
         "52adb682-9ea5-477e-8f60-76e4c18982c0",
         "94857f96-8c3c-4627-9bf1-ba8b79d0dde8",
         "5f011563-fe60-4e98-88b7-7d4bb571e43c",
-        "77399ff9-9d69-4b79-ad3b-c3f312974296",
         "c1ae97f5-e6a4-4e37-9546-05ce55ed0953",
-        "abe4d62c-b549-4a15-aeaa-63e2e8fd7e1d",
-        "7cbda834-f64d-46f4-b105-f0635126de2d",
-        "7f65415e-60e3-4ff2-9a22-a06854f9c25b",
         "26e90875-0a10-4a11-84af-181cd4dc4443",
-        "eda2cc09-a7cf-4a5b-b391-ed6ea81b72c1",
-        "a02a4c6a-f8b4-49e6-acdf-dd139450eb1c",
-        "31aa8f69-0af9-444c-850e-67d19c6ed0b9",
-        "40f78560-fc02-40ba-b259-2dbdd096b61f",
-        "ba723546-6fe5-4d8e-9aff-99d8f5233668",
         "7bcb3130-316e-41a4-b0e3-afc3d12aae01",
-        "75b36bd3-df59-4435-ab77-d4229bcd5852",
-        "2a61b229-b74f-40a7-9fd7-c7551935a475"
+        "b50eef48-c52f-4a55-acb1-96a6d86938fe",
+        "f33fc501-f163-4902-8032-eed91d44a935",
+        "fe0b4e47-86c5-4422-9404-2eb52f5b15ae"
     ],
     "IsDnD": false,
     "layers": [

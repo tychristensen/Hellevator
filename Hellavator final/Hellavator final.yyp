@@ -362,7 +362,7 @@
             }
         },
         {
-            "Key": "1683c1ee-d4fe-4dbc-a87c-542d971ad65f",
+            "Key": "14c380bc-278b-46ca-819d-a597a0765477",
             "Value": {
                 "id": "594382ac-1697-44df-9788-27e4e939582c",
                 "modelName": "GMResourceInfo",
@@ -951,7 +951,7 @@
             }
         },
         {
-            "Key": "3409a742-8048-4aef-8553-e158b9a88ec6",
+            "Key": "2fde3bfa-fce2-40bf-b65c-cfa2a89050f5",
             "Value": {
                 "id": "530218a8-04dd-4f1f-8536-dc3542eb659a",
                 "modelName": "GMResourceInfo",
@@ -970,7 +970,7 @@
             }
         },
         {
-            "Key": "35b9c51c-cfa0-4f4b-97b7-e7b7e072c9aa",
+            "Key": "3105d423-2510-414e-96a9-73d7ce4c2763",
             "Value": {
                 "id": "f5349cc9-8747-4bc5-b201-6ab090d97897",
                 "modelName": "GMResourceInfo",
@@ -1806,14 +1806,6 @@
             }
         },
         {
-            
-            "Key": "6d48f633-26ed-45af-b383-668d3fcf93e8",
-            "Value": {
-                "id": "5d061d2f-3f91-4546-bd18-a75df89a0e60",
-                "resourcePath": "rooms\\Level9a\\Level9a.yy",
-                "resourceType": "GMRoom"
-            }
-        },
             "Key": "6dcb2794-2dcb-4b25-af8e-5c850103cabd",
             "Value": {
                 "id": "378ebbeb-37ad-4a7f-94c0-4461f90d04b6",
@@ -1909,7 +1901,7 @@
             }
         },
         {
-            "Key": "718b62c9-6798-4b45-bb56-b044e9b6e0af",
+            "Key": "71143383-e434-46dd-b2c0-e4107f3e582d",
             "Value": {
                 "id": "f22af7a8-6848-4871-954b-b6db991a4e21",
                 "modelName": "GMResourceInfo",
@@ -1928,7 +1920,7 @@
             }
         },
         {
-            "Key": "7516797f-c86a-4da0-b66c-7075febf98b5",
+            "Key": "718b62c9-6798-4b45-bb56-b044e9b6e0af",
             "Value": {
                 "id": "d11665e4-8244-4379-8c29-9c11230888c0",
                 "modelName": "GMResourceInfo",
@@ -1985,7 +1977,7 @@
             }
         },
         {
-            "Key": "7b64999d-7f61-4c46-b304-662c600f3cf8",
+            "Key": "7685fa16-9c57-4d95-9765-29b31222703d",
             "Value": {
                 "id": "d0548ef0-0444-4531-ad1a-7f7b107f8a5c",
                 "modelName": "GMResourceInfo",
@@ -2042,7 +2034,7 @@
             }
         },
         {
-            "Key": "7bca528d-39be-4e23-b81b-e1ca7df1c5dd",
+            "Key": "7b64999d-7f61-4c46-b304-662c600f3cf8",
             "Value": {
                 "id": "153b7878-d2c4-4857-9bcf-d8f10dff9db8",
                 "modelName": "GMResourceInfo",
@@ -2095,14 +2087,6 @@
                     "default"
                 ],
                 "resourcePath": "objects\/oFloor2\/oFloor2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "7d01e5b3-0e5b-4caf-83e4-8db46f201c31",
-            "Value": {
-                "id": "7834092c-de71-4c51-a964-602f65cf52b7",
-                "resourcePath": "objects\\oHellaBoss\\oHellaBoss.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2677,7 +2661,7 @@
             }
         },
         {
-            "Key": "a576a6b7-6d8a-4415-809d-b7fc6045d678",
+            "Key": "a4e1d04b-bb31-4f02-a75a-e745f27e1a65",
             "Value": {
                 "id": "e5c03f42-c3ea-4c08-8482-0d02e20a4167",
                 "modelName": "GMResourceInfo",
@@ -2696,7 +2680,7 @@
             }
         },
         {
-            "Key": "a6e600f7-170e-416a-a298-e7db3f5c3806",
+            "Key": "a576a6b7-6d8a-4415-809d-b7fc6045d678",
             "Value": {
                 "id": "f1996bc9-ff71-47b4-965a-97f5a7715dae",
                 "modelName": "GMResourceInfo",
@@ -3293,7 +3277,7 @@
             }
         },
         {
-            "Key": "c127e61d-1eba-466c-aa16-64897ccf00e1",
+            "Key": "c1969a1c-a86a-4e46-9f91-fe1bb32f3429",
             "Value": {
                 "id": "633fdd80-3be9-467b-b818-55b20af826ed",
                 "modelName": "GMResourceInfo",
@@ -4091,7 +4075,7 @@
             }
         },
         {
-            "Key": "f3b020e9-6473-4510-a2a2-f0eeb3719481",
+            "Key": "f1550216-9f46-4535-8c7a-45fa4cfcd54c",
             "Value": {
                 "id": "779cadb1-9b89-484c-b836-a025235b28a6",
                 "modelName": "GMResourceInfo",
