@@ -5,7 +5,11 @@ keyRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
 keyLeft = -(keyboard_check(vk_left) or keyboard_check(ord("A")));
 keyJump = keyboard_check_pressed(vk_space);
 keyEscape = keyboard_check_pressed(vk_escape);
-fireGrapple = mouse_check_button_pressed(mb_left);
+if(hasGrappleHook) {
+	fireGrapple = mouse_check_button_pressed(mb_left);
+} else {
+	fireGrapple = false;
+}
 
 
 
@@ -28,10 +32,6 @@ switch(state)
 		{
 			verticalSpeed = -jumpSpeed;
 			canJump = false;
-		}
-		
-		if(keyboard_check_released(vk_space) and !canJump)
-		{
 			wallJump = true;
 		}
 
@@ -83,61 +83,35 @@ switch(state)
 	
 	case(moveState.grappling):
 	{
-		grappleAngAccel = -0.2 * dcos(ropeAngle);
+		if(hasGrappleHook) {
+			grappleAngAccel = -0.2 * dcos(ropeAngle);
 		
-		grappleAngAccel += keyRight * swingAccel;
-		grappleAngAccel += keyLeft * swingAccel;
-		ropeAngleVelocity += grappleAngAccel;
-		ropeAngle += ropeAngleVelocity;
-		ropeAngleVelocity *= .99;
+			grappleAngAccel += keyRight * swingAccel;
+			grappleAngAccel += keyLeft * swingAccel;
+			ropeAngleVelocity += grappleAngAccel;
+			ropeAngle += ropeAngleVelocity;
+			ropeAngleVelocity *= .99;
 		
-		baseX = grappleX + lengthdir_x(ropeLength,ropeAngle);
-		baseY = grappleY + lengthdir_y(ropeLength,ropeAngle);
+			baseX = grappleX + lengthdir_x(ropeLength,ropeAngle);
+			baseY = grappleY + lengthdir_y(ropeLength,ropeAngle);
 		
-		horizontalSpeed = round(baseX - x);
-		verticalSpeed = baseY - y;
+			horizontalSpeed = round(baseX - x);
+			verticalSpeed = baseY - y;
 		
-		if(keyJump)
-		{
-			instance_destroy(oGrappleHead);
-			state = moveState.normal;
-			verticalSpeed -= jumpSpeed;
-			canJump = false;
+			if(keyJump)
+			{
+				instance_destroy(oGrappleHead);
+				state = moveState.normal;
+				verticalSpeed -= jumpSpeed;
+				canJump = false;
+			}
 		}
 	}break;
 }
 
 //horizontal collision
 
-if (place_meeting(x+horizontalSpeed,y,oWall))
-{
-	while(!place_meeting(x+sign(horizontalSpeed),y,oWall))
-    {
-        x += sign(horizontalSpeed);
-    }
-	if(state == moveState.grappling)
-	{
-		horizontalSpeed = 0;
-		ropeAngle = point_direction(grappleX,grappleY,x,y);
-		ropeAngleVelocity = 0;
-	}
-	else if(keyboard_check(vk_space) and wallJump)
-	{
-		WALLJUMPCONST = 16;
-		wallJump = false;
-		verticalSpeed -= jumpSpeed * 0.5;
-		if(keyRight != 0) {
-			horizontalSpeed = -horizontalAcceleration * WALLJUMPCONST;
-		} else if(keyLeft != 0) {
-			horizontalSpeed = horizontalAcceleration * WALLJUMPCONST;
-		}
-	}
-	else
-	{
-		verticalSpeed -= abs(horizontalSpeed) * 0.1;
-		horizontalSpeed = 0;
-	}
-} else if (place_meeting(x+horizontalSpeed,y,oFloor)) {
+if (place_meeting(x+horizontalSpeed,y,oFloor)) {
     while(!place_meeting(x+sign(horizontalSpeed),y,oFloor))
     {
         x += sign(horizontalSpeed);
@@ -148,8 +122,21 @@ if (place_meeting(x+horizontalSpeed,y,oWall))
 		ropeAngle = point_direction(grappleX,grappleY,x,y);
 		ropeAngleVelocity = 0;
 	}
-} else if (!(place_meeting(x+horizontalSpeed,y,oWall))) {
+}
+
+//wall jump
+if(hasWallJump && wallJump && (place_meeting(x+sprite_width/2+5,y,oWall)
+						|| place_meeting(x-sprite_width/2-5,y,oWall))
+						&& keyboard_check_pressed(vk_space))
+{
+	WALLJUMPCONST = 5;
 	wallJump = false;
+	verticalSpeed -= jumpSpeed * 0.7;
+	if(place_meeting(x+abs(sprite_width/2)+5,y,oWall)) {
+		horizontalSpeed = -horizontalAcceleration * WALLJUMPCONST;
+	} else if(place_meeting(x-abs(sprite_width/2)-5,y,oWall)) {
+		horizontalSpeed = horizontalAcceleration * WALLJUMPCONST;
+	}
 }
 
 //vertical collision
