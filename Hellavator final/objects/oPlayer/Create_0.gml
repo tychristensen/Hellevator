@@ -14,6 +14,9 @@ impactConstant = 12; //speed at which screen will shake if you hit the ground
 state = moveState.normal;
 swingAccel = .05;
 
+hasGrappleHook = false;
+hasWallJump = true;
+
 enum moveState 
 {
 	normal,

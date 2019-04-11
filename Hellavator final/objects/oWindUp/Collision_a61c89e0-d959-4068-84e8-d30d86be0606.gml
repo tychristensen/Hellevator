@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Interact with player
 
 other.verticalSpeed -= WIND_CONSTANT;
