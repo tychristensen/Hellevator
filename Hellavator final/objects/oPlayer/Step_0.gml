@@ -7,7 +7,6 @@ keyJump = keyboard_check_pressed(vk_space);
 keyEscape = keyboard_check_pressed(vk_escape);
 fireGrapple = mouse_check_button_pressed(mb_left);
 
-
 switch(state)
 {
 	case(moveState.normal):
@@ -201,6 +200,7 @@ else if (place_meeting(x,y+verticalSpeed,oWall))
 //updates x and y based on speed
 y += verticalSpeed;
 x += horizontalSpeed;
+MoveObj();
 
 //if the player hits escape the game will end and close
 if(keyEscape)
