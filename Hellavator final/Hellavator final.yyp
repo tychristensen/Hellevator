@@ -723,6 +723,14 @@
             }
         },
         {
+            "Key": "27b81d68-b976-44cc-af96-fb4f28fd57cf",
+            "Value": {
+                "id": "eebce08d-49dc-4d1d-8c20-3da0f90f365f",
+                "resourcePath": "objects\\oMinotaurWeapon\\oMinotaurWeapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28d48c90-0bb3-4dba-957e-0f303e18789e",
             "Value": {
                 "id": "f3b24f3b-c726-47b7-8a73-d3fdabb2ad10",
@@ -3551,6 +3559,14 @@
                 ],
                 "resourcePath": "objects\/oScene7Trigger\/oScene7Trigger.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cab462b5-4ad4-40a9-b99f-29c88c95657f",
+            "Value": {
+                "id": "653a88e4-2f1f-4194-ba2b-4f561b9fcd3b",
+                "resourcePath": "sprites\\sMinotaurWeapon\\sMinotaurWeapon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
