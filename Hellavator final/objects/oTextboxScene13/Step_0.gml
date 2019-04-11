@@ -9,12 +9,13 @@ if(keyboard_check_pressed(ord("F"))) {
 			name = "Delilah";
 		} else if (page == 20) {
 			name = "Hellavator";
+			global.trigger = 1; 
 		} else {
 			name = "Past Delilah";  
 		}
 	} else {
 		instance_destroy(); 
-		creator.alarm[1] = 1; 
+		//creator.alarm[1] = 1; 
 		charCount = 0; 
 	}
 }

@@ -438,25 +438,6 @@
             }
         },
         {
-            "Key": "1a395af1-7fc1-438c-a705-1be95e1f3fb6",
-            "Value": {
-                "id": "ccea3e19-fb62-42de-b5c7-6a2a21ea4d2a",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/object107\/object107.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1a697f94-1e3e-46d1-b917-ec9585d13519",
             "Value": {
                 "id": "98dec07b-9ec1-4fe7-8d44-bc8dbca9fe23",
@@ -587,6 +568,25 @@
                 ],
                 "resourcePath": "objects\/oGrappleProjectile\/oGrappleProjectile.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1e3118a0-126b-4784-94db-f53f70c27540",
+            "Value": {
+                "id": "5ce2d01a-df31-458c-8ad9-6e44a94eed7f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/BeforeBossBattleRoom\/BeforeBossBattleRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2525,6 +2525,25 @@
                 ],
                 "resourcePath": "views\/9112b633-4d1d-4503-b5a1-e5f955adee3d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "936ee1e6-7795-4d65-9fc6-70407a5cc84f",
+            "Value": {
+                "id": "618e00c0-06eb-49a1-88b0-e19509550887",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oPlayerStory\/oPlayerStory.yy",
+                "resourceType": "GMObject"
             }
         },
         {

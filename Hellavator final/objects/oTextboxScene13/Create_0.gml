@@ -6,6 +6,8 @@ yBuffer = 10;
 text = "Placeholder";
 page = 0; 
 
+global.trigger = 0; 
+
 boxHeight = sprite_get_height(sbox); 
 boxWidth = sprite_get_width(sbox); 
 

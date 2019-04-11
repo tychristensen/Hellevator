@@ -5,8 +5,7 @@
     "name": "b367ebd1-277e-4dec-993b-fb36022ca44c",
     "children": [
         "510f56d1-f472-4467-af43-5fa842e64150",
-        "1b5cfef5-2712-492c-a9f7-2289fce11e8b",
-        "1a395af1-7fc1-438c-a705-1be95e1f3fb6"
+        "1b5cfef5-2712-492c-a9f7-2289fce11e8b"
     ],
     "filterType": "GMObject",
     "folderName": "lvl8",
