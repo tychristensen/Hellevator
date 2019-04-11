@@ -3,15 +3,6 @@
 
 myTextbox = noone; 
 myName = "Hellavator"; 
-myText[0] = "You're not so bad kid, but I expect you to do better on the next floor. Me and the";
-myText[1] = "Minotaur have beef going back a few milleniums, and nothing would satisfy me more";
-myText[2] = "then his soul on a platter"; 
-
-// Delilah 
-myText[3] = "The Minotaur? You mean that weird bull thing?"; 
-
-// Hellavator 
-myText[4] = "Indeed, the very one! Oh, this is going to be so exciting."; 
-
-
-
+myText[0] = "You're not so bad kid, but I expect you to do better on the next floor."
+myText[1] = "Blood just boils up and tries to kill you, so you've got to be quick"; 
+myText[2] = "to escape alive. I believe though; I'll just run off to avoid getting a tan."; 
