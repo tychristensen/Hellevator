@@ -32,6 +32,9 @@ switch(state)
 		{
 			verticalSpeed = -jumpSpeed;
 			canJump = false;
+		}
+		
+		if(keyboard_check_released(vk_space) && !canJump) {
 			wallJump = true;
 		}
 
@@ -131,7 +134,7 @@ if(hasWallJump && wallJump && (place_meeting(x+sprite_width/2+5,y,oWall)
 {
 	WALLJUMPCONST = 5;
 	wallJump = false;
-	verticalSpeed -= jumpSpeed * 0.7;
+	verticalSpeed -= jumpSpeed * 0.65;
 	if(place_meeting(x+abs(sprite_width/2)+5,y,oWall)) {
 		horizontalSpeed = -horizontalAcceleration * WALLJUMPCONST;
 	} else if(place_meeting(x-abs(sprite_width/2)-5,y,oWall)) {
