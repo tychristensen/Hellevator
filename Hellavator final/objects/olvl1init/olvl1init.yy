@@ -2,7 +2,7 @@
     "id": "3d5bf6e6-90e5-44a5-8097-b140346f2284",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oDummy",
+    "name": "olvl1init",
     "eventList": [
         {
             "id": "3c5827ea-0fbc-4fe2-87d3-20a72c93aea0",

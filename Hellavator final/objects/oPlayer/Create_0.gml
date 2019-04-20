@@ -20,3 +20,10 @@ enum moveState
 	normal,
 	grappling
 }
+
+//Spawn at checkpoint if set
+
+if(global.checkpointR == room) {
+	x = global.checkpointX;
+	y = global.checkpointY;
+}
