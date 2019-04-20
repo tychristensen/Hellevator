@@ -8,3 +8,15 @@ if(attackTimer == 0) {
 } else {
 	attackTimer--;
 }
+
+
+if (verticalSpeed < 10) verticalSpeed += grav;
+//vertical collision
+if (place_meeting(x,y+verticalSpeed,oFloor))
+{
+    while(!place_meeting(x,y+sign(verticalSpeed),oFloor))
+    {
+        y += sign(verticalSpeed);
+    }
+    verticalSpeed = 0;
+}

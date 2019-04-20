@@ -4,3 +4,4 @@ verticalSpeed = 0;
 attacking = false;
 attackCooldown = 50;
 attackTimer = 0;
+grav = 0.5;
