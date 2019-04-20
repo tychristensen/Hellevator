@@ -1,6 +1,6 @@
 if (room == Level0) {
 	if (keyboard_check_pressed(vk_enter)) {
-		room_goto(Level1);
+		room_goto_next();
 	} 
 } else {
 	if (keyboard_check_pressed(vk_escape)) {
