@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0a243cfd-c981-40ad-8c8f-6187a33de4a4",
+            "Value": {
+                "id": "a3dfd7c3-f639-45bd-9db0-94677839ef3f",
+                "resourcePath": "objects\\oMusic2\\oMusic2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b5bfd88-c382-470b-be83-14e5a49e087c",
             "Value": {
                 "id": "4c674360-7660-4f3a-932b-4e793504e482",
@@ -275,6 +283,14 @@
             "Value": {
                 "id": "18c51a4c-15c7-4310-8bc2-08eb553d66d5",
                 "resourcePath": "objects\/oGrappleProjectile\/oGrappleProjectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1daf72be-f5a5-413d-9f1d-94744e2743e3",
+            "Value": {
+                "id": "dbf4a351-c6f4-48dd-beff-e356541468a6",
+                "resourcePath": "objects\\oMusic3\\oMusic3.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -500,6 +516,22 @@
                 "id": "f4a44f81-f9fe-456a-8ba7-c622bcffc160",
                 "resourcePath": "views\/365e5528-1709-4578-92ac-83e7d679060c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "37d292ab-adb1-4aec-81ca-cbf56779392c",
+            "Value": {
+                "id": "a85fc18e-be7c-43f6-8776-c5a9d5a00345",
+                "resourcePath": "objects\\oMusic\\oMusic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "38e26b5c-ea93-41df-893f-2c10cdbed431",
+            "Value": {
+                "id": "5c500851-6f1c-4a15-8680-9dd00fbecad6",
+                "resourcePath": "objects\\oMusic6\\oMusic6.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1231,6 +1263,14 @@
             }
         },
         {
+            "Key": "9d6a91c6-1379-4fc5-bee7-9ca87bd5f7eb",
+            "Value": {
+                "id": "46db46fd-e0e1-4a7b-8bf0-84c9576bbce8",
+                "resourcePath": "objects\\oMusic7\\oMusic7.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9d984317-a895-4484-bf4f-f4b9b651fe78",
             "Value": {
                 "id": "d174b3f6-f1ae-40bc-83e3-6ebb2c75a30a",
@@ -1403,6 +1443,14 @@
             "Value": {
                 "id": "ad4eeeda-536d-4172-9b95-08b7bf46936c",
                 "resourcePath": "objects\/oWall4L\/oWall4L.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b2d5c592-36bb-47ef-8105-2ffc06805334",
+            "Value": {
+                "id": "f4f5c2ae-ee64-4109-a458-4aee944f2e29",
+                "resourcePath": "objects\\oMusic5\\oMusic5.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1707,6 +1755,14 @@
             "Value": {
                 "id": "121b29ba-d46b-4d2e-aee6-37ced82107db",
                 "resourcePath": "objects\/oScene8Trigger\/oScene8Trigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "de484bdb-825d-44e7-a52d-60985fc893b5",
+            "Value": {
+                "id": "3fd7a1da-b0a1-468b-9c7e-3932bd79a874",
+                "resourcePath": "objects\\oMusic4\\oMusic4.yy",
                 "resourceType": "GMObject"
             }
         },

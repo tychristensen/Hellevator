@@ -7,5 +7,6 @@ if (vulnerable){
 	bossStage = 0;
 	pauseCount = 0;
 	vulnerable = false;
+	image_blend = -1;
 }
 

@@ -5,7 +5,7 @@
 if (bossStage == 0){
 	if (pauseCount == 0){
 		x = oPlayer.x + random_range(-50, 50);
-		y = oPlayer.y + random_range(-200, -250);
+		y = oPlayer.y + random_range(-300, -350);
 	}
 	if (pauseCount < (100/speedMod)){
 		pauseCount += 1;
@@ -29,7 +29,7 @@ if (bossStage == 1){
 if (bossStage == 2){
 	if (pauseCount == 0){
 		x = oPlayer.x + random_range(-50, 50);
-		y = oPlayer.y + random_range(-200, -300);
+		y = oPlayer.y + random_range(-300, -400);
 	}
 	if (pauseCount < (30/speedMod)){
 		pauseCount += 1;
@@ -44,7 +44,7 @@ if (bossStage == 2){
 if (bossStage == 3){
 	if (pauseCount == 0){
 		x = oPlayer.x + random_range(-50, 50);
-		y = oPlayer.y + random_range(-200, -250);
+		y = oPlayer.y + random_range(-300, -400);
 	}
 	if (pauseCount < (60/speedMod)){
 		if (x < oPlayer.x){
