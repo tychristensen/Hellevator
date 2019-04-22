@@ -35,7 +35,7 @@ if (bossStage == 2){
 		pauseCount += 1;
 	}
 	else{
-		instance_create_layer(x, y + 150, "Instances", oBlob);
+		instance_create_layer(x, y + 200, "Instances", oBlob);
 		pauseCount = 0;
 		bossStage = 0;
 	}	
