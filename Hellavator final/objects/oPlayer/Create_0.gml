@@ -14,8 +14,16 @@ impactConstant = 12; //speed at which screen will shake if you hit the ground
 state = moveState.normal;
 swingAccel = .05;
 
+
 enum moveState 
 {
 	normal,
 	grappling
+}
+
+//Spawn at checkpoint if set
+
+if(global.checkpointR == room) {
+	x = global.checkpointX;
+	y = global.checkpointY;
 }
