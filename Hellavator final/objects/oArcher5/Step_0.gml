@@ -1,11 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Code in order to have sprite move in accordance to left or right key
-if (move_direction != 0) {
-	image_xscale = move_direction;
-}
-
 //attack code. checks line of sight to player and moves to player if unobstructed
 if(!collision_line(x,y,oPlayer.x,oPlayer.y,oFloor,false,true))
 {
