@@ -5,6 +5,11 @@ keyRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
 keyLeft = -(keyboard_check(vk_left) or keyboard_check(ord("A")));
 keyJump = keyboard_check_pressed(vk_space);
 keyEscape = keyboard_check_pressed(vk_escape);
+
+if(keyboard_check(ord("R"))) {
+	room_restart();
+}
+
 if(global.hasGrappleHook) {
 	fireGrapple = mouse_check_button_pressed(mb_left);
 } else {

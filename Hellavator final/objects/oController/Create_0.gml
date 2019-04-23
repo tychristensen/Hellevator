@@ -3,7 +3,7 @@
 
 global.isDead = 0; 
 
-global.hasGrappleHook = false;
+global.hasGrappleHook = true;
 global.hasWallJump = true;
 
 // Initialize checkpoint variables
