@@ -9,8 +9,3 @@ myText[0] = "Best of luck kid! I'm gonna go watch from over... there... oh no...
 
 // Delilah
 myText[1] = "Haha loser! Wait a minute... dang it, now I need to climb up there.";
-
-// Minotaur
-myText[2] = "I doubt you'll get there sweetheart."; 
-
-

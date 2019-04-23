@@ -4,6 +4,11 @@
 //draw_rectangle(oTextboxScene7.x- 2, oTextboxScene7.y - 2, oTextboxScene7.x + boxWidth + 2, oTextboxScene7.y + boxWidth + 2, false); 
 draw_sprite(sbox, 0,oTextboxScene7.x,oTextboxScene7.y);
 
+if ((page != 2) || (page != 3) || (page != 4)) {
+	// Delilah 
+	draw_sprite(sMcReg,3,oPlayer.x + 225,oPlayer.y - 129);
+} 
+
 // draw text 
 draw_set_font(fnt_text); 
 

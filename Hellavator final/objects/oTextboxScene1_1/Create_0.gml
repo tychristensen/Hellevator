@@ -1,4 +1,4 @@
-/// @description Text box jams
+ /// @description Text box jams
 
 xBuffer = 10; 
 yBuffer = 10; 

@@ -4,6 +4,14 @@
 //draw_rectangle(oTextboxScene9.x- 2, oTextboxScene9.y - 2, oTextboxScene9.x + boxWidth + 2, oTextboxScene9.y + boxWidth + 2, false); 
 draw_sprite(sbox, 0,oTextboxScene9.x,oTextboxScene9.y);
 
+if ((page == 3) || (page == 0)) {
+	// Delilah 
+	draw_sprite(sMcReg,2,oPlayer.x + 225,oPlayer.y - 129);
+} else {
+	// Hellavator
+	draw_sprite(sHellavatorTalkExcited,1,oPlayer.x + 225,oPlayer.y - 129);
+}
+
 // draw text 
 draw_set_font(fnt_text); 
 
