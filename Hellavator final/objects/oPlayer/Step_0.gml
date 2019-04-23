@@ -75,11 +75,13 @@ switch(state)
 			theta = point_direction(grappleX,grappleY,x,y)
 			phi = degtorad(arctan(horizontalSpeed/verticalSpeed))
 			delta = theta-phi;
-			ropeAngleVelocity = velocityMagnitude*cos(delta)*.05;
+			
 			
 			//ropeAngleVelocity = 0;
 			ropeAngle = point_direction(grappleX,grappleY,x,y);
 			ropeLength = point_distance(grappleX,grappleY,x,y);
+			
+			ropeAngleVelocity = (velocityMagnitude*cos(delta)*.05)/(ropeLength*ropeLength);
 			state = moveState.grappling
 		}
 	}break;

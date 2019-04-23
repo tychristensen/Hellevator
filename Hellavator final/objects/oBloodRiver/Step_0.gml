@@ -10,9 +10,9 @@ else
 {
 	y += verticalSpeed;
 }
-if(!instance_exists(oBossMinotaur)){
-	if(triggered = 0){
-		triggered = 1;
-		alarm[0] = 120;
-	}
-}
+//if(!instance_exists(oBossMinotaur)){
+//	if(triggered = 0){
+//		triggered = 1;
+//		alarm[0] = 120;
+//	}
+//}
