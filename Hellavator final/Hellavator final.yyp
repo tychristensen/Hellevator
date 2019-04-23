@@ -1863,6 +1863,14 @@
             }
         },
         {
+            "Key": "e35a3993-2baf-4c99-a286-d1eb75f368e8",
+            "Value": {
+                "id": "8c9e21e0-16d0-481d-852c-153b590a26a3",
+                "resourcePath": "objects\\oSceneGrapple\\oSceneGrapple.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e38924fd-1d78-4070-a799-47d7cd1dda4a",
             "Value": {
                 "id": "9f7d31ce-3a89-4bef-adf9-2214b0e5c0ae",
