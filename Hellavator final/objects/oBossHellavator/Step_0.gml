@@ -4,8 +4,8 @@
 //stage0 pause
 if (bossStage == 0){
 	if (pauseCount == 0){
-		x = oPlayer.x + random_range(-50, 50);
 		y = oPlayer.y + random_range(-350, -450);
+		x = oPlayer.x + random_range(-50, 50);
 	}
 	if (pauseCount < (100/speedMod)){
 		pauseCount += 1;
@@ -17,6 +17,9 @@ if (bossStage == 0){
 }
 //stage1 attack, stomp
 if (bossStage == 1){
+	if(pauseCount == 0){
+		y = oPlayer.y + random_range(-350, -450);
+	}
 	if (pauseCount < (30/speedMod)){
 		x = oPlayer.x
 		pauseCount += 1;
@@ -35,13 +38,13 @@ if (bossStage == 2){
 		pauseCount += 1;
 	}
 	else{
-		instance_create_layer(x, y + 150, "Instances", oBlob);
+		instance_create_layer(x, y + 220, "Instances", oBlob);
 		pauseCount = 0;
 		bossStage = 0;
 	}	
 }
 //stage 3 suck in player
-if (bossStage == 3){
+if (bossStage == 4){
 	if (pauseCount == 0){
 		x = oPlayer.x + random_range(-50, 50);
 		y = oPlayer.y + random_range(-350, -450);
@@ -53,7 +56,7 @@ if (bossStage == 3){
 		if (x > oPlayer.x){
 			oPlayer.x += (speedMod * 2);
 		}
-		oPlayer.y -= speedMod * 3;
+		//oPlayer.y -= speedMod * 3;
 		pauseCount += 1;
 	}
 	else{
@@ -62,13 +65,19 @@ if (bossStage == 3){
 	}	
 }
 //sweep stage
-if (bossStage == 4){
-	if (pauseCount == 0){
-		x = oPlayer.x + 200;
-		y = oPlayer.y - 30;
+if (bossStage == 3){
+	if (pauseCount < 35){
+		x = oPlayer.x + random_range(-25, 25);
+		y = oPlayer.y + random_range(-375, -425);
+		pauseCount += 1;
 	}
-	if (pauseCount < (50)){
-		x -= speedMod * 2;
+	if (pauseCount == 35){
+		x = 780;
+		y = 450;
+		pauseCount = 36;
+	}
+	else if (x>10){
+		x -= 5;
 		pauseCount += 1;
 	}
 	else{
