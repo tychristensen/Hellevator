@@ -4,7 +4,7 @@
 //stage0 pause
 if (bossStage == 0){
 	if (pauseCount == 0){
-		y = oPlayer.y + random_range(-350, -450);
+		y = oPlayer.y + random_range(-400, -500);
 		x = oPlayer.x + random_range(-50, 50);
 	}
 	if (pauseCount < (100/speedMod)){
@@ -21,6 +21,7 @@ if (bossStage == 1){
 		y = oPlayer.y + random_range(-350, -450);
 	}
 	if (pauseCount < (30/speedMod)){
+		y = oPlayer.y - 350;
 		x = oPlayer.x
 		pauseCount += 1;
 	}
@@ -35,6 +36,7 @@ if (bossStage == 2){
 		y = oPlayer.y + random_range(-350, -450);
 	}
 	if (pauseCount < (30/speedMod)){
+		x = x + random_range(-10, 10);
 		pauseCount += 1;
 	}
 	else{
@@ -47,7 +49,7 @@ if (bossStage == 2){
 if (bossStage == 4){
 	if (pauseCount == 0){
 		x = oPlayer.x + random_range(-50, 50);
-		y = oPlayer.y + random_range(-350, -450);
+		y = oPlayer.y + random_range(-400, -500);
 	}
 	if (pauseCount < (60/speedMod)){
 		if (x < oPlayer.x){
@@ -66,18 +68,18 @@ if (bossStage == 4){
 }
 //sweep stage
 if (bossStage == 3){
-	if (pauseCount < 35){
+	if (pauseCount < 150){
 		x = oPlayer.x + random_range(-25, 25);
 		y = oPlayer.y + random_range(-375, -425);
 		pauseCount += 1;
 	}
-	if (pauseCount == 35){
+	if (pauseCount == 150){
 		x = 780;
 		y = 450;
-		pauseCount = 36;
+		pauseCount = 151;
 	}
-	else if (x>10){
-		x -= 5;
+	else if (x>51){
+		x -= 4 + speedMod;
 		pauseCount += 1;
 	}
 	else{
@@ -92,6 +94,12 @@ if (bossStage == 5){
 if (healthVal == 0){
 	global.isDead = 1; 
 	instance_destroy();
+}
+if (x > 800){
+	x = 800
+}
+if (x < 50){
+	x = 50
 }
 show_debug_message("timer")
 show_debug_message(pauseCount)
