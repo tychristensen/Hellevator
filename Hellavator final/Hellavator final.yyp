@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0a2fdaf8-8b9f-4bbd-adcb-5423a768bf45",
+            "Value": {
+                "id": "c81ee05c-21d3-4f33-b9fc-946f60ff40e7",
+                "resourcePath": "sounds\\Trech\\Trech.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0b5bfd88-c382-470b-be83-14e5a49e087c",
             "Value": {
                 "id": "4c674360-7660-4f3a-932b-4e793504e482",
@@ -743,6 +751,14 @@
             }
         },
         {
+            "Key": "57aeee6b-71fb-40df-809d-550cdf313ae9",
+            "Value": {
+                "id": "173c9cff-481b-46f3-a367-b66495986f3d",
+                "resourcePath": "sounds\\Limbo\\Limbo.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "57d281db-6abc-4b42-a9a4-f63f2ad042a2",
             "Value": {
                 "id": "909ea7b3-a5c0-43c3-9c68-cfc07870a504",
@@ -1087,6 +1103,14 @@
             }
         },
         {
+            "Key": "8419035a-3b01-4e4e-bfa9-5e29a9ff4e12",
+            "Value": {
+                "id": "a545a937-8d82-4ac0-b075-8cd03d2f3983",
+                "resourcePath": "sounds\\Anger\\Anger.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8508bec6-99d8-4652-85e5-478b850c294e",
             "Value": {
                 "id": "2c37b314-b09a-4157-abe8-da164193d9fd",
@@ -1164,6 +1188,14 @@
                 "id": "59cd1799-42dc-493c-bb42-46ca8d8d13f7",
                 "resourcePath": "sprites\/sLimboPerson3\/sLimboPerson3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8f1b940d-aa61-45f6-940f-8e9d6d686db6",
+            "Value": {
+                "id": "9d6e8666-0c76-4405-8c6a-856f56e5963e",
+                "resourcePath": "sounds\\LimboIntro\\LimboIntro.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1287,6 +1319,14 @@
             }
         },
         {
+            "Key": "a69ea455-b539-4032-94bc-8bb4e9caca69",
+            "Value": {
+                "id": "745433ff-f70a-4f3b-8125-bb69cd6244d3",
+                "resourcePath": "sounds\\Lust\\Lust.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a6e600f7-170e-416a-a298-e7db3f5c3806",
             "Value": {
                 "id": "129e372f-c136-443a-bfe7-571e798210a1",
@@ -1396,6 +1436,14 @@
                 "id": "ebd1380b-7195-4a91-a6d2-16b9569d507f",
                 "resourcePath": "objects\/oScene6Trigger\/oScene6Trigger.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b1745a37-c1b2-40e5-8098-e32557b31bc3",
+            "Value": {
+                "id": "339261ba-89d5-480b-9bc6-79f2e38de3f6",
+                "resourcePath": "sounds\\Gorg\\Gorg.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1671,11 +1719,27 @@
             }
         },
         {
+            "Key": "d46d4f45-a065-422b-81e8-c9f7fec64ddb",
+            "Value": {
+                "id": "72c65e8d-e4f3-498b-b06e-a4f3b94cf98d",
+                "resourcePath": "sounds\\GorgIntro\\GorgIntro.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d46f2793-bc63-40fc-805d-823622ef8104",
             "Value": {
                 "id": "4421d89d-dc24-4061-807d-643a62eb52d0",
                 "resourcePath": "objects\/oLimbo3\/oLimbo3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d5c4d8cc-fc29-416c-88b7-b4c6390d98ca",
+            "Value": {
+                "id": "42036930-2abc-4263-8d17-d9c165a3a6b1",
+                "resourcePath": "sounds\\Violence\\Violence.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1700,6 +1764,14 @@
                 "id": "2329976c-098d-4887-a571-bca09be51670",
                 "resourcePath": "sprites\/sStatue2\/sStatue2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dc42390a-b226-43b1-87d2-36cb9d69c29e",
+            "Value": {
+                "id": "5036ab9b-b72d-4465-8d25-6a38927617be",
+                "resourcePath": "sounds\\TrechIntro\\TrechIntro.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1796,6 +1868,14 @@
                 "id": "c65223b6-4a4a-4a2f-b3f4-70dd244059c5",
                 "resourcePath": "objects\/oScene12_1Trigger\/oScene12_1Trigger.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e6fd9175-bf06-4992-a644-28694002b185",
+            "Value": {
+                "id": "aa710618-17ab-4553-bfe5-9be52728402c",
+                "resourcePath": "sounds\\Heresy\\Heresy.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1959,6 +2039,14 @@
             }
         },
         {
+            "Key": "f5369787-dec7-462e-a409-12dada647185",
+            "Value": {
+                "id": "3b8b19fd-bb6c-422d-9300-3b7c5b24aa08",
+                "resourcePath": "sounds\\AngerIntro\\AngerIntro.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f77ae3f7-14a6-4252-a67a-ae52e04898bb",
             "Value": {
                 "id": "38c4cebf-b16c-4800-9146-9c163f55282e",
@@ -1980,6 +2068,14 @@
                 "id": "0264f8dd-d3be-4133-8a41-894d1702ea88",
                 "resourcePath": "sprites\/sbox\/sbox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f85bff2c-8e42-4779-a81d-f967a8bf1d28",
+            "Value": {
+                "id": "d1845772-4ed2-4a35-8cde-898effae7be6",
+                "resourcePath": "sounds\\Fraud\\Fraud.yy",
+                "resourceType": "GMSound"
             }
         },
         {
