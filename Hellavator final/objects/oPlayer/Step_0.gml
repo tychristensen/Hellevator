@@ -5,7 +5,7 @@ keyRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
 keyLeft = -(keyboard_check(vk_left) or keyboard_check(ord("A")));
 keyJump = keyboard_check_pressed(vk_space);
 keyEscape = keyboard_check_pressed(vk_escape);
-if(hasGrappleHook) {
+if(global.hasGrappleHook) {
 	fireGrapple = mouse_check_button_pressed(mb_left);
 } else {
 	fireGrapple = false;
@@ -86,7 +86,7 @@ switch(state)
 	
 	case(moveState.grappling):
 	{
-		if(hasGrappleHook) {
+		if(global.hasGrappleHook) {
 			grappleAngAccel = -0.2 * dcos(ropeAngle);
 		
 			grappleAngAccel += keyRight * swingAccel;
@@ -128,11 +128,11 @@ if (place_meeting(x+horizontalSpeed,y,oFloor)) {
 }
 
 //wall jump
-if(hasWallJump && wallJump && (place_meeting(x+sprite_width/2+5,y,oWall)
+if(global.hasWallJump && wallJump && (place_meeting(x+sprite_width/2+5,y,oWall)
 						|| place_meeting(x-sprite_width/2-5,y,oWall))
 						&& keyboard_check_pressed(vk_space))
 {
-	WALLJUMPCONST = 5;
+	WALLJUMPCONST = 16;
 	wallJump = false;
 	verticalSpeed -= jumpSpeed * 0.65;
 	if(place_meeting(x+abs(sprite_width/2)+5,y,oWall)) {
