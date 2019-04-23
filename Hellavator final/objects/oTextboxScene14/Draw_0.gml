@@ -4,6 +4,14 @@
 // draw_rectangle(oTextboxScene14.x- 2, oTextboxScene14.y - 2, oTextboxScene14.x + boxWidth + 2, oTextboxScene14.y + boxWidth + 2, false); 
 draw_sprite(sbox, 0,oTextboxScene14.x,oTextboxScene14.y);
 
+if ((page == 4) || (page == 5)) {
+	// Hellavator
+	draw_sprite(sHellavatorTalkSad,4,oPlayer.x + 225,oPlayer.y - 129);
+} else {
+	// Delilah - Hair regrew
+	draw_sprite(sMcScared,1,oPlayer.x + 225,oPlayer.y - 129);
+}
+
 // draw text 
 draw_set_font(fnt_text); 
 

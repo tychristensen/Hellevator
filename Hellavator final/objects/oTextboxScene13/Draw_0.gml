@@ -4,6 +4,17 @@
 //draw_rectangle(oTextboxScene13.x- 2, oTextboxScene13.y - 2, oTextboxScene13.x + boxWidth + 2, oTextboxScene13.y + boxWidth + 2, false); 
 draw_sprite(sbox, 0,oTextboxScene13.x,oTextboxScene13.y);
 
+if ((page == 1) || (page == 3) || (page == 4) || (page == 12) || (page == 13) || (page == 14) || (page ==15) || (page == 16)) {
+	// Delilah
+	draw_sprite(sMcFinalReg,1,oPlayer.x + 225,oPlayer.y - 129);
+} else if (page == 20) {
+	// Hellavator
+	draw_sprite(sHellavatorTalkSad,2,oPlayer.x + 225,oPlayer.y - 129);
+} else {
+	// Past Delilah  
+	draw_sprite(sMcReg,3,oPlayer.x + 225,oPlayer.y - 129);
+}
+
 // draw text 
 draw_set_font(fnt_text); 
 

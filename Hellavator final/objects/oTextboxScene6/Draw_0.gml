@@ -2,7 +2,9 @@
 
 // draw textbox
 //draw_rectangle(oTextboxScene6.x- 2, oTextboxScene6.y - 2, oTextboxScene6.x + boxWidth + 2, oTextboxScene6.y + boxWidth + 2, false); 
-draw_sprite(sbox, 0,oTextboxScene6.x,oTextboxScene6.y);
+draw_sprite(sbox,0,oTextboxScene6.x,oTextboxScene6.y);
+
+draw_sprite(sMcReg,3,oPlayer.x + 225,oPlayer.y - 129);
 
 // draw text 
 draw_set_font(fnt_text); 

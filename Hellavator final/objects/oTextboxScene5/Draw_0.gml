@@ -4,6 +4,13 @@
 //draw_rectangle(oTextboxScene5.x- 2, oTextboxScene5.y - 2, oTextboxScene5.x + boxWidth + 2, oTextboxScene5.y + boxWidth + 2, false); 
 draw_sprite(sbox, 0,oTextboxScene5.x,oTextboxScene5.y);
 
+if ((page != 1)) {
+	// Delilah 
+	draw_sprite(sMcScared,1,oPlayer.x + 225,oPlayer.y - 129);
+} else if (page == 0) {
+	// Smirking Delilah
+	draw_sprite(sMcReg,2,oPlayer.x + 225,oPlayer.y - 129);
+}
 // draw text 
 draw_set_font(fnt_text); 
 
