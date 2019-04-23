@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "180c260b-3861-4d15-b5d9-05b5b8adc2d9",
+            "Value": {
+                "id": "ed65706c-1d4a-4963-bbf3-3cc5a22b3409",
+                "resourcePath": "objects\\oMusic1\\oMusic1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "180ecd2e-fc9e-42d2-92bd-b683d4ec5a5c",
             "Value": {
                 "id": "11c6f967-0423-45de-9509-2ad9dd747396",
@@ -663,6 +671,14 @@
             }
         },
         {
+            "Key": "4fd46239-fe2c-4aab-8020-0d14160bdd60",
+            "Value": {
+                "id": "694c7b63-0239-492f-bb67-f1f989daa472",
+                "resourcePath": "objects\\oMusic4\\oMusic4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "510f56d1-f472-4467-af43-5fa842e64150",
             "Value": {
                 "id": "c1273e46-a86e-4578-a2fb-ed6604d11db2",
@@ -775,6 +791,14 @@
             }
         },
         {
+            "Key": "596c814e-3b26-483b-ab30-e0310e5b9796",
+            "Value": {
+                "id": "aa20a868-f3f8-43a1-adb4-3cecb163e0df",
+                "resourcePath": "objects\\oMusic6\\oMusic6.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5b803848-12ce-4b14-8613-c935f4fce528",
             "Value": {
                 "id": "8696806f-d630-4ab8-9564-2df7bb98a1ce",
@@ -804,6 +828,14 @@
                 "id": "83850887-ffce-4d19-8330-7e4cca566c15",
                 "resourcePath": "sprites\/sFloorWall8\/sFloorWall8.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "667f0fa6-16e9-454c-9f78-03a4b1362791",
+            "Value": {
+                "id": "9a4a56fe-f141-4478-a2cc-a8b59d3a9928",
+                "resourcePath": "objects\\oMusic2\\oMusic2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -860,6 +892,14 @@
                 "id": "894f6b95-2317-4775-a1be-6929148d3308",
                 "resourcePath": "objects\/oLimbo1\/oLimbo1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6c78a0ad-2fcb-4121-9fe0-1a887b16ffdb",
+            "Value": {
+                "id": "0cdade8d-f1d1-4aef-8bed-693b32406b2e",
+                "resourcePath": "views\\6c78a0ad-2fcb-4121-9fe0-1a887b16ffdb.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1204,6 +1244,14 @@
                 "id": "8f6381aa-15d4-4845-848a-919330f279b8",
                 "resourcePath": "views\/9112b633-4d1d-4503-b5a1-e5f955adee3d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "91fb8804-00e3-4077-8a83-f743b212647e",
+            "Value": {
+                "id": "df5eb28c-5fc1-4234-94a4-012658526715",
+                "resourcePath": "objects\\oMusic5\\oMusic5.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1831,6 +1879,14 @@
             }
         },
         {
+            "Key": "e56642ae-63e9-435a-bf28-7b77d2a42718",
+            "Value": {
+                "id": "32bc3a70-da77-4b3b-a370-f1291e184031",
+                "resourcePath": "objects\\oMusic3\\oMusic3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e5b1688f-9dd9-487e-8c19-879dbbf9417a",
             "Value": {
                 "id": "dff0a6ff-fd73-4bb2-94b4-42c9e55196cf",
@@ -1883,6 +1939,14 @@
             "Value": {
                 "id": "875c661e-873d-4fdf-8359-c62582f6ca98",
                 "resourcePath": "objects\/oTextboxScene6\/oTextboxScene6.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e7d2dc88-817b-459f-b1a9-fd6bd393303f",
+            "Value": {
+                "id": "87ad4b41-14f9-421a-85a8-6d3d8dc249d6",
+                "resourcePath": "objects\\oMusicLimbo\\oMusicLimbo.yy",
                 "resourceType": "GMObject"
             }
         },
