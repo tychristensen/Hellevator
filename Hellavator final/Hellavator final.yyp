@@ -2199,6 +2199,22 @@
             }
         },
         {
+            "Key": "fd4cd92e-0383-46a8-9f1e-6285612161b4",
+            "Value": {
+                "id": "74ca5e47-f076-4bff-ae58-c94dc628a2eb",
+                "resourcePath": "objects\\oTextboxHint\\oTextboxHint.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fd72a21c-8fb3-4a31-b6e4-1d506565e4d1",
+            "Value": {
+                "id": "edf6209e-7c8d-4be1-a433-d720b49f84a6",
+                "resourcePath": "objects\\oTextboxGrapple\\oTextboxGrapple.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ff75721a-dbe4-4cc9-ab97-6b5dfbf3eb2f",
             "Value": {
                 "id": "df4e9f72-0be8-4ab1-b79e-b04f4df83f6d",
