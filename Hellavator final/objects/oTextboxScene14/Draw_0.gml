@@ -8,8 +8,8 @@ if ((page == 4) || (page == 5)) {
 	// Hellavator
 	draw_sprite(sHellavatorTalkSad,4,oPlayer.x + 225,oPlayer.y - 129);
 } else {
-	// Delilah - Hair regrew
-	draw_sprite(sMcScared,1,oPlayer.x + 225,oPlayer.y - 129);
+	// Delilah 
+	draw_sprite(sMcFinalCrying,3,oPlayer.x + 225,oPlayer.y - 129);
 }
 
 // draw text 
