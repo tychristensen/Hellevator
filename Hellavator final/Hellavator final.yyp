@@ -1103,6 +1103,14 @@
             }
         },
         {
+            "Key": "896874fd-9696-4c3b-94ea-ad458f0f44e1",
+            "Value": {
+                "id": "5207352a-d3a0-4f95-9b5b-1fcef6e52650",
+                "resourcePath": "objects\\oSceneJumpTutorialTrigger\\oSceneJumpTutorialTrigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "897e77eb-8189-459b-9e5d-c61d438b6cef",
             "Value": {
                 "id": "be49d77d-88e6-4e16-a8e4-7ead31d93bec",
@@ -1196,6 +1204,14 @@
                 "id": "acd3afe3-05c0-45aa-8524-9f03c6c86975",
                 "resourcePath": "sprites\/sLv1Demon\/sLv1Demon.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9bf1349e-0435-40f7-8bbb-789a1a3a7395",
+            "Value": {
+                "id": "663daa57-1e2c-46ab-88a2-ba239464067a",
+                "resourcePath": "objects\\oTextboxJumpTutorial\\oTextboxJumpTutorial.yy",
+                "resourceType": "GMObject"
             }
         },
         {
