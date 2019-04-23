@@ -8,8 +8,7 @@ if (room == Level0) {
 	}
 }
 
-/*
 if (global.isDead == 1) {
 	instance_create_layer(oPlayer.x,oPlayer.y,"Instances",oScene14Trigger); 
-	instance_create_layer(oPlayer.x + 50, oPlayer.y, "Instances", oVoidPortal); 
-}*/
+	instance_create_layer(oPlayer.x + 225, oPlayer.y - 129, "Instances", oVoidPortal); 
+}
