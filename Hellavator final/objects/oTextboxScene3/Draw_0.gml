@@ -4,6 +4,8 @@
 //draw_rectangle(oTextboxScene3.x- 2, oTextboxScene3.y - 2, oTextboxScene3.x + boxWidth + 2, oTextboxScene3.y + boxWidth + 2, false); 
 draw_sprite(sbox, 0,oTextboxScene3.x,oTextboxScene3.y);
 
+draw_sprite(sHellavatorTalk,1,oPlayer.x + 225,oPlayer.y - 129);
+
 // draw text 
 draw_set_font(fnt_text); 
 

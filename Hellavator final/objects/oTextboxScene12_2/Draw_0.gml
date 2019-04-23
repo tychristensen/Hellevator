@@ -4,6 +4,8 @@
 //draw_rectangle(oTextboxScene12_2.x - 2, oTextboxScene12_2.y - 2, oTextboxScene12_2.x + boxWidth + 2, oTextboxScene12_2.y + boxWidth + 2, false); 
 draw_sprite(sbox, 0,oTextboxScene12_2.x,oTextboxScene12_2.y);
 
+draw_sprite(sMcShorthairReg,6,oPlayer.x + 225,oPlayer.y - 129);
+
 // draw text 
 draw_set_font(fnt_text); 
 
