@@ -45,6 +45,12 @@ if (place_meeting(x,y+verticalSpeed,oFloor))
     }
     verticalSpeed = 0;
 }
+
+if (!place_meeting(x+(32*move_direction),y+32,oFloor))
+{
+    horizontalSpeed = 0;
+}
+
 y += verticalSpeed;
 x += horizontalSpeed;
 

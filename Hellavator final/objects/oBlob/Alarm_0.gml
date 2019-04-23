@@ -1,4 +1,4 @@
-/// @description Insert description here
+	/// @description Insert description here
 // You can write your code in this editor
 does_move=irandom(idle_move_chance-1);
 //this code below seems counter intuitive but if does move = 0 then it moves becuase
